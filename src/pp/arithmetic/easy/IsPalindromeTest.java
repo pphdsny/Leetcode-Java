@@ -19,7 +19,7 @@ public class IsPalindromeTest {
 
 	public static void main(String[] args) {
 		boolean palindrome = isPalindrome("race a car");
-		System.out.println("ÊÇ·ñÊÇ»ØÎÄ×Ö·û´®£º" + palindrome);
+		System.out.println("æ˜¯å¦æ˜¯å›žæ–‡å­—ç¬¦ä¸²ï¼š" + palindrome);
 		
 	}
 
@@ -67,15 +67,15 @@ public class IsPalindromeTest {
 
 	public static boolean isAlphanumeric(char c) {
 		if (c >= 48 && c <= 57) {
-			// Êý×Ö
+			// æ•°å­—
 			return true;
 		}
 		if (c >= 65 && c <= 90) {
-			// ´óÐ´×ÖÄ¸
+			// å¤§å†™å­—æ¯
 			return true;
 		}
 		if (c >= 97 && c <= 122) {
-			// Ð¡Ð´×ÖÄ¸
+			// å°å†™å­—æ¯
 			return true;
 		}
 		return false;
