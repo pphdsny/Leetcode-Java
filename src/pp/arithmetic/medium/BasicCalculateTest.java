@@ -21,7 +21,7 @@ import java.util.Stack;
 public class BasicCalculateTest {
 
 	public static void main(String[] args) {
-		int calculate = calculate("(1+(4+5+2)-3)+(6+8)");
+		int calculate = calculate("(1+(4+5+2)-32)+(6+8)");
 		System.out.println("输出结果：" + calculate);
 	}
 	
@@ -38,8 +38,7 @@ public class BasicCalculateTest {
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
 			if (Character.isDigit(c)) {
-//				number = 10 * number + (int) (c - '0');
-				number = Integer.parseInt(String.valueOf(c));
+				number = 10 * number + (int) (c - '0');
 			} else if (c == '+') {
 				result += sign * number;
 				number = 0;
