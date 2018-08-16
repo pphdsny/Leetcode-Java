@@ -3,7 +3,6 @@ package pp.arithmetic;
 import pp.arithmetic.linkedlist.easy.ReverseList206;
 import pp.arithmetic.model.ListNode;
 
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -20,6 +19,7 @@ public class Util {
             System.out.print(head.val + " ");
             head = head.next;
         }
+        System.out.println();
         System.out.println("--------------");
     }
 
@@ -43,5 +43,15 @@ public class Util {
             startNum = startNum + new Random().nextInt(maxSize);
         }
         return ReverseList206.reverseList(tempNode.next);
+    }
+
+    public static ListNode getLastNode(ListNode node){
+        ListNode lastNode = null;
+        ListNode tempNode = node;
+        while (tempNode != null){
+            lastNode = tempNode;
+            tempNode = tempNode.next;
+        }
+        return lastNode;
     }
 }
