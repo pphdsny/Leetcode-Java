@@ -1,4 +1,4 @@
-package pp.arithmetic.linkedlist.easy;
+package pp.arithmetic.easy;
 
 import pp.arithmetic.model.ListNode;
 import pp.arithmetic.Util;
@@ -6,7 +6,7 @@ import pp.arithmetic.Util;
 /**
  * Created by wangpeng on 2018/7/9.
  */
-public class ReverseList206 {
+public class _206_ReverseList {
 
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);

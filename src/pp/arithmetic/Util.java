@@ -1,6 +1,6 @@
 package pp.arithmetic;
 
-import pp.arithmetic.linkedlist.easy.ReverseList206;
+import pp.arithmetic.easy._206_ReverseList;
 import pp.arithmetic.model.ListNode;
 
 import java.util.Random;
@@ -42,7 +42,7 @@ public class Util {
             tempNode.next = node;
             startNum = startNum + new Random().nextInt(maxSize);
         }
-        return ReverseList206.reverseList(tempNode.next);
+        return _206_ReverseList.reverseList(tempNode.next);
     }
 
     public static ListNode getLastNode(ListNode node){

@@ -1,4 +1,4 @@
-package pp.arithmetic.linkedlist.easy;
+package pp.arithmetic.easy;
 
 import pp.arithmetic.Util;
 import pp.arithmetic.model.ListNode;
@@ -6,7 +6,7 @@ import pp.arithmetic.model.ListNode;
 /**
  * Created by wangpeng on 2018/8/15.
  */
-public class MergeTwoLists21 {
+public class _21_MergeTwoLists {
     public static void main(String[] args) {
         ListNode node1 = Util.generateListNodeBySort(5);
         Util.printListNode(node1);

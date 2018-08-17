@@ -1,4 +1,4 @@
-package pp.arithmetic.linkedlist.medium;
+package pp.arithmetic.medium;
 
 import pp.arithmetic.Util;
 import pp.arithmetic.model.ListNode;
@@ -6,7 +6,7 @@ import pp.arithmetic.model.ListNode;
 /**
  * Created by wangpeng on 2018/7/10.
  */
-public class ReverseBetween92 {
+public class _92_ReverseBetween {
 
     public static void main(String[] args) {
         ListNode node = Util.generateListNodeBySize(10);

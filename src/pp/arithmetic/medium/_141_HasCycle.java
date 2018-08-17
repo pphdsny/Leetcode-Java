@@ -1,4 +1,4 @@
-package pp.arithmetic.linkedlist.medium;
+package pp.arithmetic.medium;
 
 import pp.arithmetic.Util;
 import pp.arithmetic.model.ListNode;
@@ -10,7 +10,7 @@ import pp.arithmetic.model.ListNode;
  * 进阶：
  * 你能否不使用额外空间解决此题？
  */
-public class HasCycle141 {
+public class _141_HasCycle {
 
     public static void main(String[] args) {
         ListNode srcNode = Util.generateListNodeBySort(5);
