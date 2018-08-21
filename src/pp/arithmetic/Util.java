@@ -26,7 +26,7 @@ public class Util {
     public static ListNode generateListNodeBySize(int maxSize) {
         ListNode tempNode = new ListNode(0);
         for (int i = 0; i < maxSize; i++) {
-            ListNode node = new ListNode(new Random().nextInt(maxSize));
+            ListNode node = new ListNode(new Random().nextInt(maxSize*maxSize));
             node.next = tempNode.next;
             tempNode.next = node;
         }
