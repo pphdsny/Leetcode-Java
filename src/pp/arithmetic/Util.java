@@ -26,7 +26,7 @@ public class Util {
     public static ListNode generateListNodeBySize(int maxSize) {
         ListNode tempNode = new ListNode(0);
         for (int i = 0; i < maxSize; i++) {
-            ListNode node = new ListNode(new Random().nextInt(maxSize*maxSize));
+            ListNode node = new ListNode(new Random().nextInt(maxSize * maxSize));
             node.next = tempNode.next;
             tempNode.next = node;
         }
@@ -45,13 +45,28 @@ public class Util {
         return _206_ReverseList.reverseList(tempNode.next);
     }
 
-    public static ListNode getLastNode(ListNode node){
+    public static ListNode getLastNode(ListNode node) {
         ListNode lastNode = null;
         ListNode tempNode = node;
-        while (tempNode != null){
+        while (tempNode != null) {
             lastNode = tempNode;
             tempNode = tempNode.next;
         }
         return lastNode;
+    }
+
+    public static int[] generateArrayBySize(int maxSize) {
+        int[] nums = new int[maxSize];
+        for (int i = 0; i < maxSize; i++) {
+            nums[i] = new Random().nextInt(maxSize * maxSize);
+        }
+        return nums;
+    }
+
+    public static void printArray(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + " ");
+        }
+        System.out.println();
     }
 }
