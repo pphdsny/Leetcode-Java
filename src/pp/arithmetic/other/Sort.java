@@ -8,12 +8,13 @@ import pp.arithmetic.Util;
  */
 public class Sort {
     public static void main(String[] args) {
-        int maxSize = 5;
+        int maxSize = 1;
         Util.printArray(bubbleSort(Util.generateArrayBySize(maxSize)));
         Util.printArray(insertionSort(Util.generateArrayBySize(maxSize)));
         Util.printArray(selectionSort(Util.generateArrayBySize(maxSize)));
         Util.printArray(shellSort(Util.generateArrayBySize(maxSize)));
-        Util.printArray(quickSort(Util.generateArrayBySize(maxSize)));
+        Util.printArray(mergeSort(Util.generateArrayBySize(maxSize)));
+//        Util.printArray(quickSort(Util.generateArrayBySize(maxSize)));
     }
 
     /**
@@ -151,8 +152,54 @@ public class Sort {
      * @return
      */
     public static int[] mergeSort(int[] nums) {
-        // TODO: 2018/8/30 归并等后续学递归的时候补上 
-        return nums;
+        if (nums.length == 1) {
+            return nums;
+        }
+        int[] left = split(nums, 0, nums.length / 2);
+        int[] right = split(nums, nums.length / 2, nums.length);
+
+        int[] mergeLeft = mergeSort(left);
+        int[] mergeRight = mergeSort(right);
+        int[] merge = merge(mergeLeft, mergeRight);
+        return merge;
+    }
+
+    private static int[] split(int[] num, int start, int end) {
+        int[] retNum = new int[end - start];
+        int index = 0;
+        for (int i = start; i < end; i++) {
+            retNum[index] = num[i];
+            index++;
+        }
+        return retNum;
+    }
+
+    private static int[] merge(int[] left, int[] right) {
+        int[] newNum = new int[left.length + right.length];
+        int i = 0;
+        int j = 0;
+        while (i < left.length && j < right.length) {
+            if (left[i] < right[j]) {
+                newNum[i + j] = left[i];
+                i++;
+            } else {
+                newNum[i + j] = right[j];
+                j++;
+            }
+        }
+        if (i < left.length) {
+            for (int k = i; k < left.length; k++) {
+                newNum[i + j] = left[k];
+                i++;
+            }
+        }
+        if (j < right.length) {
+            for (int k = j; k < right.length; k++) {
+                newNum[i + j] = right[k];
+                j++;
+            }
+        }
+        return newNum;
     }
 
     /**

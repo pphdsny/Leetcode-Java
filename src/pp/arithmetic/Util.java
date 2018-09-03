@@ -58,7 +58,7 @@ public class Util {
     public static int[] generateArrayBySize(int maxSize) {
         int[] nums = new int[maxSize];
         for (int i = 0; i < maxSize; i++) {
-            nums[i] = new Random().nextInt(maxSize * maxSize);
+            nums[i] = new Random().nextInt(maxSize + maxSize + maxSize);
         }
         return nums;
     }
