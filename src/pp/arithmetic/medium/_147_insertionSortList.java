@@ -43,6 +43,7 @@ public class _147_insertionSortList {
 
     /**
      * 如果去替换单链表的前置节点？思路卡住了。
+     * 对于链表来说，只能通过头节点进行遍历
      *
      * @param head
      * @return
