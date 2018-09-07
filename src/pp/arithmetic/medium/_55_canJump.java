@@ -60,4 +60,20 @@ public class _55_canJump {
         }
         return false;
     }
+
+    /**
+     * 官方解答，更优，不需要额外的存储空间，循环也少一半
+     *
+     * @param nums
+     * @return
+     */
+    public static boolean canJumpOther(int[] nums) {
+        int lastPos = nums.length - 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            if (i + nums[i] >= lastPos) {
+                lastPos = i;
+            }
+        }
+        return lastPos == 0;
+    }
 }
