@@ -3,6 +3,7 @@ package pp.arithmetic;
 import pp.arithmetic.easy._206_ReverseList;
 import pp.arithmetic.model.ListNode;
 
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -66,6 +67,13 @@ public class Util {
     public static void printArray(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public static void printList(List<Integer> nums) {
+        for (int i = 0; i < nums.size(); i++) {
+            System.out.print(nums.get(i) + " ");
         }
         System.out.println();
     }
