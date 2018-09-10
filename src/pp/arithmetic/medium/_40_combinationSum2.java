@@ -65,7 +65,7 @@ public class _40_combinationSum2 {
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<List<Integer>> result = new ArrayList<>();
-        generate(candidates, 0, target, result, new ArrayList<>(), 0);
+        generate(candidates, 0, target, result, new ArrayList<>());
         return result;
     }
 
@@ -73,25 +73,24 @@ public class _40_combinationSum2 {
                                  int index,
                                  int target,
                                  List<List<Integer>> result,
-                                 List<Integer> item,
-                                 int sum) {
+                                 List<Integer> item) {
         if (index >= nums.length
-                || sum > target) {
+                || target < 0) {
             return;
         }
         item.add(nums[index]);
-        sum += nums[index];
+        target -= nums[index];
         //==target&&不能有重复的
-        if (sum == target) {
+        if (0 == target) {
             result.add(new ArrayList<>(item));
         }
-        generate(nums, index + 1, target, result, item, sum);
+        generate(nums, index + 1, target, result, item);
         Integer remove = item.remove(item.size() - 1);
-        sum -= remove;
+        target += remove;
         int i = index;
         while (i < nums.length - 1 && nums[i + 1] == remove) {
             i++;
         }
-        generate(nums, i + 1, target, result, item, sum);
+        generate(nums, i + 1, target, result, item);
     }
 }
