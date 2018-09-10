@@ -38,6 +38,11 @@ public class _78_subsets {
         for (int i = 0; i < subsets.size(); i++) {
             Util.printList(subsets.get(i));
         }
+        System.out.println("------------");
+        List<List<Integer>> subsets2 = subsets2(new int[]{1, 2, 3});
+        for (int i = 0; i < subsets2.size(); i++) {
+            Util.printList(subsets2.get(i));
+        }
     }
 
     /**
@@ -68,5 +73,26 @@ public class _78_subsets {
         //移除自己
         item.remove(new Integer(nums[index]));
         generate(nums, index + 1, result, item);
+    }
+
+    /**
+     * 方法二：位运算法
+     * 每一位都有可能有或者没有，例如【1，2，3】，每一位100,101,110,111,010,011,001,000
+     *
+     * @param nums
+     * @return
+     */
+    public static List<List<Integer>> subsets2(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        for (int i = 0; i < 1 << nums.length; i++) {
+            List<Integer> item = new ArrayList<>();
+            for (int j = 0; j < nums.length; j++) {
+                if ((i & (1 << j)) != 0) {
+                    item.add(nums[j]);
+                }
+            }
+            result.add(item);
+        }
+        return result;
     }
 }
