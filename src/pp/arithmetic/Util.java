@@ -77,4 +77,8 @@ public class Util {
         }
         System.out.println();
     }
+
+    public static void printDivideLine(){
+        System.out.println("-------我是分割线-------");
+    }
 }
