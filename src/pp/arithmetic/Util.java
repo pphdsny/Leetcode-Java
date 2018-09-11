@@ -78,6 +78,13 @@ public class Util {
         System.out.println();
     }
 
+    public static void printStringList(List<String> nums) {
+        for (int i = 0; i < nums.size(); i++) {
+            System.out.print(nums.get(i) + " ");
+        }
+        System.out.println();
+    }
+
     public static void printDivideLine(){
         System.out.println("-------我是分割线-------");
     }
