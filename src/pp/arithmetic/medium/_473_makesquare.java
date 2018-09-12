@@ -1,6 +1,10 @@
 package pp.arithmetic.medium;
 
+import pp.arithmetic.Util;
+
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by wangpeng on 2018/9/11.
@@ -32,10 +36,26 @@ import java.util.Arrays;
 public class _473_makesquare {
 
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
         boolean makesquare = makesquare(new int[]{1, 1, 2, 2, 2});
         System.out.println(makesquare);
         boolean makesquare2 = makesquare(new int[]{3, 3, 3, 3, 4});
         System.out.println(makesquare2);
+        boolean makesquare3 = makesquare(new int[]{12, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60});
+        System.out.println(makesquare3);
+        long end = System.currentTimeMillis();
+        System.out.println("start-end:" + (end - start));
+        Util.printDivideLine();
+        start = System.currentTimeMillis();
+        boolean makesquare_2 = makesquare2(new int[]{1, 1, 2, 2, 2});
+        System.out.println(makesquare_2);
+        boolean makesquare2_2 = makesquare2(new int[]{3, 3, 3, 3, 4});
+        System.out.println(makesquare2_2);
+        boolean makesquare3_2 = makesquare2(new int[]{12, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60});
+        System.out.println(makesquare3_2);
+        end = System.currentTimeMillis();
+        System.out.println("start-end:" + (end - start));
+
     }
 
     /**
@@ -46,6 +66,9 @@ public class _473_makesquare {
      * @return
      */
     public static boolean makesquare(int[] nums) {
+        if (nums.length < 4) {
+            return false;
+        }
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
@@ -87,6 +110,49 @@ public class _473_makesquare {
             array[i] = array[array.length - i - 1];
             array[array.length - i - 1] = temp;
         }
+    }
+
+    public static boolean makesquare2(int[] nums) {
+        if (nums == null || nums.length < 4) {
+            return false;
+        }
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+        }
+        if (sum % 4 != 0) {
+            return false;
+        }
+        int target = sum / 4;
+        List<Integer> ok_subset = new ArrayList<>();
+        List<Integer> ok_half = new ArrayList<>();
+        int all = 1 << nums.length;
+        for (int i = 0; i < all; i++) {
+            int tempSum = 0;
+            for (int j = 0; j < nums.length; j++) {
+                if ((i & (1 << j)) != 0) {
+                    tempSum += nums[j];
+                }
+            }
+            if (tempSum == target) {
+                ok_subset.add(i);
+            }
+        }
+        for (int i = 0; i < ok_subset.size(); i++) {
+            for (int j = i + 1; j < ok_subset.size(); j++) {
+                if ((ok_subset.get(i) & ok_subset.get(j)) == 0) {
+                    ok_half.add((ok_subset.get(i) | ok_subset.get(j)));
+                }
+            }
+        }
+        for (int i = 0; i < ok_half.size(); i++) {
+            for (int j = i + 1; j < ok_half.size(); j++) {
+                if ((ok_half.get(i) & ok_half.get(j)) == 0) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
 }
