@@ -34,6 +34,20 @@ public class Util {
         return tempNode.next;
     }
 
+    public static ListNode generateOrderListNode(int maxSize) {
+        ListNode tempNode = new ListNode(0);
+        ListNode next = tempNode;
+        int preVal = 0;
+        for (int i = 0; i < maxSize; i++) {
+            int val = new Random().nextInt(maxSize * maxSize) + preVal;
+            preVal = val;
+            ListNode node = new ListNode(val);
+            next.next = node;
+            next = node;
+        }
+        return tempNode.next;
+    }
+
     public static ListNode generateListNodeBySort(int maxSize) {
         int startNum = new Random().nextInt(maxSize);
         ListNode tempNode = new ListNode(0);
@@ -85,7 +99,7 @@ public class Util {
         System.out.println();
     }
 
-    public static void printDivideLine(){
+    public static void printDivideLine() {
         System.out.println("-------我是分割线-------");
     }
 }
