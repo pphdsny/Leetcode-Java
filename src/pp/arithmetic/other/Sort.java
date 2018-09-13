@@ -8,13 +8,13 @@ import pp.arithmetic.Util;
  */
 public class Sort {
     public static void main(String[] args) {
-        int maxSize = 1;
+        int maxSize = 5;
         Util.printArray(bubbleSort(Util.generateArrayBySize(maxSize)));
         Util.printArray(insertionSort(Util.generateArrayBySize(maxSize)));
         Util.printArray(selectionSort(Util.generateArrayBySize(maxSize)));
         Util.printArray(shellSort(Util.generateArrayBySize(maxSize)));
         Util.printArray(mergeSort(Util.generateArrayBySize(maxSize)));
-//        Util.printArray(quickSort(Util.generateArrayBySize(maxSize)));
+        Util.printArray(quickSort(Util.generateArrayBySize(maxSize)));
     }
 
     /**
@@ -147,6 +147,8 @@ public class Sort {
      * 归并操作（merge），也叫归并算法，指的是将两个已经排序的序列合并成一个序列的操作。归并排序算法依赖归并操作。
      * <p>
      * 时间复杂度：O(nlogn)，最优时间复杂度：O(n),平均时间复杂度：O(nlogn),空间复杂度O(n)
+     * <p>
+     * 总结：先拆分，再排序
      *
      * @param nums
      * @return
@@ -208,6 +210,8 @@ public class Sort {
      * 2、重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区结束之后，该基准就处于数列的中间位置。这个称为分区（partition）操作。
      * 3、递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
      * 时间复杂度：O(n^2)，最优时间复杂度：O(nlogn),平均时间复杂度：O(nlogn)
+     * <p>
+     * 总结：先粗糙排序，在拆分继续粗糙排序
      *
      * @param nums
      * @return
@@ -224,38 +228,30 @@ public class Sort {
 
         int partition = partition(nums, low, hight);
         quickSort(nums, low, partition);
-        quickSort(nums, partition, hight);
+        quickSort(nums, partition + 1, hight);
     }
 
     private static int partition(int[] nums, int start, int end) {
-        int pivot = (end + start) / 2;
-        while (true) {
-            if (start >= end) {
-                break;
-            }
-            while (start >= pivot) {
-                if (nums[start] > nums[pivot]) {
+        if (start >= end) {
+            return start;
+        }
+        int pivot = nums[start];//  基准点
+        while (start < end) {
+            while (start < end) {// 从数组尾部往前循环得到小于哨兵元素的一个元素
+                if (nums[end--] < pivot) {
+                    nums[start++] = nums[++end];
                     break;
                 }
-                start--;
             }
-            while (end <= pivot) {
-                if (nums[end] < nums[pivot]) {
+
+            while (start < end) {// 从数组头部往后循环得到大于哨兵元素的一个元素
+                if (nums[start++] > pivot) {
+                    nums[end--] = nums[--start];
                     break;
                 }
-                end--;
-            }
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            //变化基准值的位置
-            if (start == pivot) {
-                pivot = end;
-            }
-            if (end == pivot) {
-                pivot = start;
             }
         }
-        return pivot;
+        nums[start] = pivot;
+        return start;
     }
 }
