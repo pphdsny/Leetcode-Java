@@ -28,6 +28,7 @@ public class _315_countSmaller {
         long start = System.currentTimeMillis();
         List<Integer> list = countSmaller(new int[]{5, 2, 6, 1});
         long end = System.currentTimeMillis();
+        //12ms,效率低下
         System.out.println("(end-start):" + (end - start));
         Util.printList(list);
     }
