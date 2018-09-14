@@ -2,6 +2,7 @@ package pp.arithmetic;
 
 import pp.arithmetic.easy._206_ReverseList;
 import pp.arithmetic.model.ListNode;
+import pp.arithmetic.model.TreeNode;
 
 import java.util.List;
 import java.util.Random;
@@ -78,6 +79,29 @@ public class Util {
         return nums;
     }
 
+    public static TreeNode generateTreeNode() {
+        TreeNode root = new TreeNode(5);
+        TreeNode node1 = new TreeNode(4);
+        TreeNode node2 = new TreeNode(8);
+        TreeNode node3 = new TreeNode(11);
+        TreeNode node4 = new TreeNode(13);
+        TreeNode node5 = new TreeNode(4);
+        TreeNode node6 = new TreeNode(7);
+        TreeNode node7 = new TreeNode(2);
+        TreeNode node8 = new TreeNode(5);
+        TreeNode node9 = new TreeNode(1);
+        root.left = node1;
+        root.right = node2;
+        node1.left = node3;
+        node2.left = node4;
+        node2.right = node5;
+        node3.left = node6;
+        node3.right = node7;
+        node5.left = node8;
+        node5.right = node9;
+        return root;
+    }
+
     public static void printArray(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
@@ -101,5 +125,21 @@ public class Util {
 
     public static void printDivideLine() {
         System.out.println("-------我是分割线-------");
+    }
+
+    public static void printTree(TreeNode treeNode) {
+        printTree(treeNode, 0);
+    }
+
+    private static void printTree(TreeNode treeNode, int floor) {
+        if (treeNode == null) {
+            return;
+        }
+        for (int i = 0; i < floor; i++) {
+            System.out.print("----");
+        }
+        System.out.println("[" + treeNode.val + "]");
+        printTree(treeNode.left, floor + 1);
+        printTree(treeNode.right, floor + 1);
     }
 }

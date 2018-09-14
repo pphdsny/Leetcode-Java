@@ -16,13 +16,13 @@ import java.util.List;
  * 示例:
  * 给定如下二叉树，以及目标和 sum = 22，
  * <p>
- * 5
- * / \
- * 4   8
- * /   / \
- * 11  13  4
- * /  \    / \
- * 7   2  5   1
+ *          5
+ *         / \
+ *        4   8
+ *       /   / \
+ *      11  13  4
+ *     /  \    / \
+ *    7   2   5   1
  * 返回:
  * <p>
  * [
@@ -34,34 +34,11 @@ import java.util.List;
  */
 public class _113_pathSum {
     public static void main(String[] args) {
-        TreeNode treeNode = generateTree();
+        TreeNode treeNode = Util.generateTreeNode();
         List<List<Integer>> lists = pathSum(treeNode, 22);
         for (int i = 0; i < lists.size(); i++) {
             Util.printList(lists.get(i));
         }
-    }
-
-    private static TreeNode generateTree() {
-        TreeNode root = new TreeNode(5);
-        TreeNode node1 = new TreeNode(4);
-        TreeNode node2 = new TreeNode(8);
-        TreeNode node3 = new TreeNode(11);
-        TreeNode node4 = new TreeNode(13);
-        TreeNode node5 = new TreeNode(4);
-        TreeNode node6 = new TreeNode(7);
-        TreeNode node7 = new TreeNode(2);
-        TreeNode node8 = new TreeNode(5);
-        TreeNode node9 = new TreeNode(1);
-        root.left = node1;
-        root.right = node2;
-        node1.left = node3;
-        node2.left = node4;
-        node2.right = node5;
-        node3.left = node6;
-        node3.right = node7;
-        node5.left = node8;
-        node5.right = node9;
-        return root;
     }
 
     public static List<List<Integer>> pathSum(TreeNode root, int sum) {
