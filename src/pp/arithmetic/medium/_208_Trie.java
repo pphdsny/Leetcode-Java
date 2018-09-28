@@ -1,5 +1,7 @@
 package pp.arithmetic.medium;
 
+import pp.arithmetic.model.TrieTree;
+
 /**
  * Created by wangpeng on 2018/9/28.
  * 208.实现 Trie (前缀树)
@@ -96,18 +98,6 @@ public class _208_Trie {
                 node = temp;
             }
             return true;
-        }
-    }
-
-    private static class TrieTree {
-        public static final int MAX = 26;
-        public char val;
-        public TrieTree[] tries;
-        public boolean isEnd;
-
-        public TrieTree(char val) {
-            this.val = val;
-            tries = new TrieTree[MAX];
         }
     }
 }
