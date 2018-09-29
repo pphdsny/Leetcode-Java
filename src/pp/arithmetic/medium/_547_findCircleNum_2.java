@@ -1,5 +1,7 @@
 package pp.arithmetic.medium;
 
+import pp.arithmetic.model.DisjointSet;
+
 /**
  * Created by wangpeng on 2018/9/29.
  * 547.朋友圈
@@ -33,7 +35,7 @@ package pp.arithmetic.medium;
  *
  * @see <a href="https://leetcode-cn.com/problems/friend-circles/description/">friend-circles</a>
  */
-public class _547_findCircleNum {
+public class _547_findCircleNum_2 {
 
     public static void main(String[] args) {
         int circleNum = findCircleNum(new int[][]{
@@ -43,39 +45,33 @@ public class _547_findCircleNum {
         });
         System.out.println(circleNum);
         int circleNum2 = findCircleNum(new int[][]{
-                {1, 0, 0}, {0, 1, 0}, {0, 0, 1}
+                {1, 1, 0, 0, 0, 0, 0, 0},
+                {1, 1, 1, 0, 0, 0, 0, 0},
+                {0, 1, 1, 1, 0, 0, 0, 0},
+                {1, 0, 1, 1, 1, 0, 0, 0},
+                {1, 0, 0, 1, 1, 1, 0, 0},
+                {1, 0, 0, 0, 1, 1, 1, 0},
+                {1, 0, 0, 0, 0, 1, 1, 1},
+                {0, 0, 0, 0, 0, 0, 1, 1}
         });
         System.out.println(circleNum2);
     }
 
     /**
-     * 图的深度遍历
+     * 并查集--森林实现
      *
      * @param M
      * @return
      */
     public static int findCircleNum(int[][] M) {
-        if (M.length == 0) {
-            return 0;
-        }
-        int[] visit = new int[M.length];
-        int count = 0;
+        DisjointSet disjointSet = new DisjointSet(M.length);
         for (int i = 0; i < M.length; i++) {
-            if (visit[i] == 0) {
-                dfs(i, M, visit);
-                count++;
+            for (int j = i + 1; j < M.length; j++) {
+                if (M[i][j] == 1) {
+                    disjointSet.union(i, j);
+                }
             }
         }
-        return count;
-    }
-
-    private static void dfs(int index, int[][] M, int[] visit) {
-        visit[index] = 1;
-        int[] items = M[index];
-        for (int i = 0; i < items.length; i++) {
-            if (visit[i] == 0 && M[index][i] == 1) {
-                dfs(i, M, visit);
-            }
-        }
+        return disjointSet.count();
     }
 }
