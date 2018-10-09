@@ -25,7 +25,10 @@ package pp.arithmetic.medium;
 public class _307_NumArray {
 
     public static void main(String[] args) {
-
+        NumArray numArray = new NumArray(new int[]{1, 3, 5});
+        System.out.println(numArray.sumRange(0,2));
+        numArray.update(1,2);
+        System.out.println(numArray.sumRange(0,2));
     }
 
     /**
@@ -47,7 +50,7 @@ public class _307_NumArray {
         public int sumRange(int i, int j) {
             int total = 0;
             for (int k = i; k <= j; k++) {
-                total += nums[i];
+                total += nums[k];
             }
             return total;
         }
