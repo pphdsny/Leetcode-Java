@@ -30,7 +30,7 @@ public class HasCycleTest {
         return false;
     }
 
-    class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
