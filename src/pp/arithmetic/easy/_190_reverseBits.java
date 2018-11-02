@@ -28,11 +28,21 @@ public class _190_reverseBits {
         int result = 0;
         for (int i = 0; i < 32; i++) {
             result += n & 1;
-            n >>>= 1;
+            n >>= 1;
             if (i < 31) {
                 result <<= 1;
             }
         }
         return result;
     }
+    /**
+     * 反转操作总结
+     * - 求回文
+     *  - 字符串回文：从头和尾以此遍历,最简单
+     *  - 数字回文：n/10,构建一半，是否相等 _9_isPalindrome
+     *  - 链表回文：链表反转一半 _234_isPalindrome
+     * - 反转
+     *  - 数字反转：n/10，注意Int越界 _7_reverse
+     *  - 二进制反转：>>1 _190_reverseBits
+     */
 }
