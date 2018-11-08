@@ -27,9 +27,12 @@ public class _214_shortestPalindrome {
         System.out.println(s3);
         String s4 = shortestPalindrome("aaaabbaa");
         System.out.println(s4);
+        String s5 = shortestPalindrome("abcdefba");
+        System.out.println(s5);
     }
 
     /**
+     * 暴力匹配算法
      * 实现，时间复杂度O(n^2)
      * @param s
      * @return
