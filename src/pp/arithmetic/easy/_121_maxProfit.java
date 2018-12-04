@@ -29,6 +29,12 @@ public class _121_maxProfit {
         System.out.println(maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
     }
 
+    /**
+     * 解答：<a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/"></a>
+     *
+     * @param prices
+     * @return
+     */
     public static int maxProfit(int[] prices) {
         if (prices == null || prices.length <= 1) {
             return 0;
