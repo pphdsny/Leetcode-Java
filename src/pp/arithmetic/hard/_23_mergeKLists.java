@@ -46,10 +46,10 @@ public class _23_mergeKLists {
     /**
      * 2,2组合更优
      * 时间复杂度:
-     * 2n*k/2+2^2n*k/2^2+....2^k*n*k/2^k
-     * k/2^k会无限趋近于1，所以k=logk
-     * NK+NK+...+NK
-     * 时间复杂度O(n*klogk)
+     * 2n*m/2+2^2n*m/2^2+....2^k*n*m/2^k
+     * m/2^k会无限趋近于1，所以k=logm
+     * Nm+Nm+...+Nm
+     * 时间复杂度O(n*mlogm)
      *
      * @param lists
      * @return
