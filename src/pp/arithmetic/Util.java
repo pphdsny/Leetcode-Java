@@ -117,6 +117,14 @@ public class Util {
     }
 
     public static void printStringList(List<String> nums) {
+        if (nums == null){
+            System.out.println("list is null");
+            return;
+        }
+        if (nums.size() == 0){
+            System.out.println("list size is 0");
+            return;
+        }
         for (int i = 0; i < nums.size(); i++) {
             System.out.print(nums.get(i) + " ");
         }
