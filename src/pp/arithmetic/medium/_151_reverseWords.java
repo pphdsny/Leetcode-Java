@@ -1,4 +1,4 @@
-package pp.arithmetic.easy;
+package pp.arithmetic.medium;
 
 /**
  * Created by wangpeng on 2019-02-01.
@@ -26,6 +26,13 @@ public class _151_reverseWords {
         System.out.println(reverseWords(" "));
     }
 
+    /**
+     * 执行用时: 15 ms, 在Reverse Words in a String的Java提交中击败了47.75% 的用户
+     * 内存消耗: 29.6 MB, 在Reverse Words in a String的Java提交中击败了26.64% 的用户
+     *
+     * @param s
+     * @return
+     */
     public static String reverseWords(String s) {
         StringBuilder builder = new StringBuilder();
         int si = 0;
