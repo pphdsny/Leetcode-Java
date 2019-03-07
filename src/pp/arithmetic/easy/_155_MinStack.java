@@ -18,20 +18,30 @@ import java.util.Stack;
 public class _155_MinStack {
     public static void main(String[] args) {
         MinStackOther obj = new MinStackOther();
-        obj.push(0);
-        obj.push(1);
-        obj.push(3);
+        obj.push(Integer.MAX_VALUE);
+        obj.push(Integer.MAX_VALUE);
+        obj.push(Integer.MAX_VALUE);
+        obj.top();
         obj.pop();
-        int param_3 = obj.top();
-        System.out.println("param_3:" + param_3);
-        int param_4 = obj.getMin();
-        System.out.println("param_4:" + param_4);
+        obj.getMin();
+        obj.pop();
+        obj.getMin();
+        obj.pop();
+        obj.push(Integer.MAX_VALUE);
+        obj.top();
+        obj.getMin();
+        obj.push(Integer.MIN_VALUE);
+        obj.top();
+        obj.getMin();
+        obj.pop();
+        System.out.println(obj.getMin());
+
     }
 
     public static class MinStack {
 
         Stack<Integer> dataStack;
-        Stack<Integer> minStack;
+        Stack<Integer> minStack;    //存每一位push进去的时候，最小的值
 
         /**
          * initialize your data structure here.
@@ -68,6 +78,11 @@ public class _155_MinStack {
 
     /**
      * 解法更优，时间和空间复杂度都O(1)
+     * 当存入的都是Integet.MAX_VALUE和MIN_VALUE的时候，会存在结果不正确的问题
+     * //["MinStack","push","push","push","top","pop","getMin","pop","getMin","pop","push","top","getMin","push","top","getMin","pop","getMin"]
+     * //[[],[2147483646],[2147483646],[2147483647],[],[],[],[],[],[],[2147483647],[],[],[-2147483648],[],[],[],[]]
+     * //[null,null,null,null,2147483647,null,2147483646,null,2147483646,null,null,2147483647,2147483647,null,-2147483647,-2147483648,null,-2147483648]
+     * //[null,null,null,null,2147483647,null,2147483646,null,2147483646,null,null,2147483647,2147483647,null,-2147483648,-2147483648,null,2147483647]
      */
     public static class MinStackOther {
         int min;
