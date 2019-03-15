@@ -1,4 +1,4 @@
-package pp.arithmetic.medium;
+package pp.arithmetic.all;
 
 /**
  * Created by wangpeng on 2018/10/25.
