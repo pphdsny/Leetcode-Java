@@ -1,6 +1,6 @@
 package pp.arithmetic;
 
-import pp.arithmetic.easy._206_ReverseList;
+import pp.arithmetic.leetcode._206_ReverseList;
 import pp.arithmetic.model.ListNode;
 import pp.arithmetic.model.TreeNode;
 
