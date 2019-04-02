@@ -1,2 +1,5 @@
-# ArithmeticTest
-个人平时算法练习记录，每天一道，练习网址：https://leetcode.com/
+# LeetCode-Java
+## 说明
+个人练习leetcode记录，坚持每天一道，欢迎交流!
+## 网站
+https://leetcode-cn.com/
