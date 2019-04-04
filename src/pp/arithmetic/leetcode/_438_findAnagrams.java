@@ -43,7 +43,7 @@ import java.util.List;
  *
  * @see <a href="https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/">find-leetcode-anagrams-in-a-string</a>
  */
-public class _463_findAnagrams {
+public class _438_findAnagrams {
 
     public static void main(String[] args) {
         Util.printList(findAnagrams("cbaebabacd", "abc"));
@@ -51,43 +51,37 @@ public class _463_findAnagrams {
     }
 
     /**
-     * 时间复杂度（O(m*n)）
+     * 更优的解法
      *
      * @param s
      * @param p
      * @return
      */
     public static List<Integer> findAnagrams(String s, String p) {
-        List<Integer> retList = new ArrayList<>();
-        int[] pn = new int[26];
-        int[] sn;
-        for (int i = 0; i < p.length(); i++) {
-            pn[p.charAt(i) - 'a']++;
+        int l = 0, r = 0;
+        int count = p.length();
+        int[] freq = new int[26];
+        for (int i = 0; i<p.length();i++) {
+            freq[p.charAt(i)-'a']++;
         }
-
-        for (int i = 0; i <= s.length() - p.length(); i++) {
-            sn = new int[26];
-            for (int j = 0; j < p.length(); j++) {
-                sn[s.charAt(j + i) - 'a']++;
+        List<Integer> res = new ArrayList<>();
+        while (r < s.length()) {
+            //当前元素次数减一
+            freq[s.charAt(r)-'a']--;
+            if (freq[s.charAt(r++)-'a'] >= 0) {
+                count--;
             }
-            if (isSame(pn, sn)) {
-                retList.add(i);
+            while (count == 0) {
+                if ((r - l) == p.length()) {
+                    res.add(l);
+                }
+                if (freq[s.charAt(l)-'a'] == 0){
+                    count++;
+                }
+                freq[s.charAt(l++)-'a']++;
             }
-        }
 
-        return retList;
-    }
-
-
-    private static boolean isSame(int[] num1, int[] num2) {
-        if (num1.length != num2.length) {
-            return false;
         }
-        for (int i = 0; i < num1.length && i < num2.length; i++) {
-            if (num1[i] != num2[i]) {
-                return false;
-            }
-        }
-        return true;
+        return res;
     }
 }
