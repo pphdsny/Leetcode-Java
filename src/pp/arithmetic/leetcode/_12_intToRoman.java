@@ -46,7 +46,7 @@ package pp.arithmetic.leetcode;
  * 输出: "MCMXCIV"
  * 解释: M = 1000, CM = 900, XC = 90, IV = 4.
  *
- * @see <a href="https://leetcode-cn.com/problems/integer-to-roman/"></a>
+ * @see <a href="https://leetcode-cn.com/problems/integer-to-roman/">integer-to-roman</a>
  */
 public class _12_intToRoman {
 
@@ -68,11 +68,10 @@ public class _12_intToRoman {
      * 解题思路：
      * 1、将待转换的数字拆分成个十百千
      * 2、逐步求解各位对应的罗马数字
-     * 解题过程略显麻烦，但是这是基本的解题过程，可以抽象一下，见解法二
+     * 解题过程略显麻烦，但是这是基本的解题过程，可以抽象一下，见解法二{@link _12_intToRoman#intToRoman2(int)}
      *
      * @param num
      * @return
-     * @see _12_intToRoman#intToRoman2(int)
      */
     public String intToRoman(int num) {
         StringBuilder builder = new StringBuilder();
@@ -158,6 +157,9 @@ public class _12_intToRoman {
      * C             100
      * D             500
      * M             1000
+     * <p>
+     * 执行用时 : 21 ms, 在Integer to Roman的Java提交中击败了100.00% 的用户
+     * 内存消耗 : 40.8 MB, 在Integer to Roman的Java提交中击败了65.63% 的用户
      *
      * @param num
      * @return
