@@ -4,23 +4,23 @@
 - leetcode练习，坚持每天一道
 - 解题语言是Java
 - 每道题都是可编译运行的
-- 每道题有自己笨笨的方法和他人优秀解法
+- 每道题有自己的方法和他人优秀解法
+- 尽量分析一下解题步骤和复杂度
 - 欢迎star、fork、交流，一起互勉
-## 网站
-https://leetcode-cn.com/
+- 网址：https://leetcode-cn.com/
 ## 20190408-20190415待解题目列表
 
 共9道题目，4道Easy，5道Medium
 
-- [ ] 12.[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)
-- [ ] 13.[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)
-- [ ] 16.[最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest)
-- [ ] 17.[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)
-- [ ] 18.[四数之和](https://leetcode-cn.com/problems/4sum)
-- [ ] 20.[有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
-- [ ] 27.[移除元素](https://leetcode-cn.com/problems/remove-element)
-- [ ] 28.[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)
-- [ ] 29[两数相除](https://leetcode-cn.com/problems/divide-two-integers)
+- [x] [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)
+- [ ] [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)
+- [ ] [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest)
+- [ ] [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)
+- [ ] [18. 四数之和](https://leetcode-cn.com/problems/4sum)
+- [ ] [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
+- [ ] [27. 移除元素](https://leetcode-cn.com/problems/remove-element)
+- [ ] [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr)
+- [ ] [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers)
 
 ## 已解题目
 
@@ -70,6 +70,7 @@ https://leetcode-cn.com/
 | #9    | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | [IsPalindrome](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_9_isPalindrome.java) | [数学](<https://leetcode-cn.com/tag/math/>)                  | Easy   |                                                              |
 | #10   | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [IsMatch](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_10_isMatch_2.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Hard   | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_10_isMatch.java) |
 | #11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [MaxArea](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_11_maxArea.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
+| #12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) | [IntToRoman](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_12_intToRoman.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
 | #14   | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [LongestCommonPrefix](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_14_longestCommonPrefix.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Easy   |                                                              |
 | #15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | [ThreeSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_15_threeSum.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #19   | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [RemoveNthFromEnd](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_19_RemoveNthFromEnd.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
