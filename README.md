@@ -8,7 +8,22 @@
 - 欢迎star、fork、交流，一起互勉
 ## 网站
 https://leetcode-cn.com/
+## 20190408-20190415待解题目列表
+
+共9道题目，4道Easy，5道Medium
+
+- [ ] 12.[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)
+- [ ] 13.[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)
+- [ ] 16.[最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest)
+- [ ] 17.[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)
+- [ ] 18.[四数之和](https://leetcode-cn.com/problems/4sum)
+- [ ] 20.[有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
+- [ ] 27.[移除元素](https://leetcode-cn.com/problems/remove-element)
+- [ ] 28.[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)
+- [ ] 29[两数相除](https://leetcode-cn.com/problems/divide-two-integers)
+
 ## 已解题目
+
 > 20190404# leetcode目前已有题目1020道，免费852道
 
 ### 题目类型（更新中）
