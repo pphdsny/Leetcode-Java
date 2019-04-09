@@ -14,10 +14,10 @@
 
 共9道题目，4道Easy，5道Medium
 
-- [x] [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)
-- [x] [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)
-- [x] [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest)
-- [x] [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)
+- [x] [12. 整数转罗马数字](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_12_intToRoman.java)
+- [x] [13. 罗马数字转整数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_13_romanToInt.java)
+- [x] [16. 最接近的三数之和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_16_threeSumClosest.java)
+- [x] [17. 电话号码的字母组合](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_17_letterCombinations.java)
 - [ ] [18. 四数之和](https://leetcode-cn.com/problems/4sum)
 - [ ] [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
 - [ ] [27. 移除元素](https://leetcode-cn.com/problems/remove-element)
