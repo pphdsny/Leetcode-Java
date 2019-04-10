@@ -18,11 +18,15 @@
 - [x] [13. 罗马数字转整数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_13_romanToInt.java)
 - [x] [16. 最接近的三数之和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_16_threeSumClosest.java)
 - [x] [17. 电话号码的字母组合](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_17_letterCombinations.java)
-- [ ] [18. 四数之和](https://leetcode-cn.com/problems/4sum)
+- [x] [18. 四数之和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_18_fourSum.java)
 - [ ] [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
 - [ ] [27. 移除元素](https://leetcode-cn.com/problems/remove-element)
 - [ ] [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr)
 - [ ] [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers)
+
+额外添加几道关联题目
+
+- [ ] [454. 四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)
 
 ## 已解题目
 
@@ -78,6 +82,7 @@
 | #15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | [ThreeSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_15_threeSum.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #16   | [最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [ThreeSumClosest](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_16_threeSumClosest.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #17   | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [LetterCombinations](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_17_letterCombinations.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
+| #18   | [四数之和](https://leetcode-cn.com/problems/4sum/)           | [FourSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_18_fourSum.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>) | Medium |                                                              |
 | #19   | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [RemoveNthFromEnd](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_19_RemoveNthFromEnd.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #21   | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [MergeTwoLists](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_21_MergeTwoLists.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |                                                              |
 | #22   | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [GenerateParenthesis](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_22_generateParenthesis.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
