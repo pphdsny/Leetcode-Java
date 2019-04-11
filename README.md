@@ -26,7 +26,7 @@
 
 额外添加几道关联题目
 
-- [ ] [454. 四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)
+- [x] [454. 四数相加 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_454_fourSumCount.java)
 
 ## 已解题目
 
@@ -181,6 +181,7 @@
 | #449  | [序列化和反序列化二叉搜索树](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | [Serialize_deserialize](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_449_serialize_deserialize.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Medium |                                                              |
 | #450  | [删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [DeleteNode](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_450_deleteNode.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Medium |                                                              |
 | #452  | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [FindMinArrowShots](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_452_findMinArrowShots.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)              | Medium |                                                              |
+| #454  | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)     | [FourSumCount](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_454_fourSumCount.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) | [FindContentChildren](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_455_findContentChildren.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)              | Easy   |                                                              |
 | #457  | [环形数组循环](https://leetcode-cn.com/problems/circular-array-loop/) | [CircularArrayLoop](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_457_circularArrayLoop.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #460  | [LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)       | [LFUCache](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_460_LFUCache.java) | [设计](https://leetcode-cn.com/tag/design/)                  | Hard   |                                                              |
