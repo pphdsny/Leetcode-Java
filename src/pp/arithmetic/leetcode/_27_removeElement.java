@@ -55,6 +55,10 @@ public class _27_removeElement {
         System.out.println(element.removeElement(new int[]{3, 2, 2, 3}, 3));
         System.out.println(element.removeElement(new int[]{0, 1, 2, 2, 3, 0, 4, 2}, 2));
         System.out.println(element.removeElement(new int[]{3, 1, 0}, 11));
+        //解法二
+        System.out.println(element.removeElement2(new int[]{3, 2, 2, 3}, 3));
+        System.out.println(element.removeElement2(new int[]{0, 1, 2, 2, 3, 0, 4, 2}, 2));
+        System.out.println(element.removeElement2(new int[]{3, 1, 0}, 11));
     }
 
     /**
@@ -63,6 +67,8 @@ public class _27_removeElement {
      * 1、先对数组进行排序
      * 2、找到==val的起始位置和终止位置
      * 3、将终止位置后的数字前移至起始位置
+     * <p>
+     * 更新一个更简洁的写法 {@link _27_removeElement#removeElement2(int[], int)}
      *
      * @param nums
      * @param val
@@ -96,5 +102,27 @@ public class _27_removeElement {
         } else {
             return len - ei + si - 2;
         }
+    }
+
+    /**
+     * 解法二，写法更简洁
+     *
+     * @param nums
+     * @param val
+     * @return
+     */
+    public int removeElement2(int[] nums, int val) {
+
+        int retLen = 0;
+        int insertIndex = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == val) {
+                continue;
+            }
+            nums[insertIndex++] = nums[i];
+            retLen++;
+        }
+
+        return retLen;
     }
 }
