@@ -11,26 +11,12 @@
 - 欢迎star、fork、交流，一起互勉
 - 微信号：pp_hdsny（备注leetcode）
 - 网址：https://leetcode-cn.com/
-## 20190408-20190415待解题目列表
+## 20190415-20190422待解题目列表
 
-共9道题目，4道Easy，5道Medium
-
-- [x] [12. 整数转罗马数字](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_12_intToRoman.java)
-- [x] [13. 罗马数字转整数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_13_romanToInt.java)
-- [x] [16. 最接近的三数之和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_16_threeSumClosest.java)
-- [x] [17. 电话号码的字母组合](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_17_letterCombinations.java)
-- [x] [18. 四数之和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_18_fourSum.java)
-- [x] [20. 有效的括号](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_20_isValid.java)
 - [ ] [27. 移除元素](https://leetcode-cn.com/problems/remove-element)
 - [ ] [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr)
 - [ ] [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers)
-
-额外添加几道关联题目
-
-- [x] [454. 四数相加 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_454_fourSumCount.java)
-
 - [ ] [32. 最长有效括号-Hard](https://leetcode-cn.com/problems/longest-valid-parentheses/)
-
 - [ ] [301. 删除无效的括号-Hard](https://leetcode-cn.com/problems/remove-invalid-parentheses/)
 
 ## 已解题目
