@@ -13,7 +13,7 @@
 - 网址：https://leetcode-cn.com/
 ## 20190415-20190422待解题目列表
 
-- [ ] [27. 移除元素](https://leetcode-cn.com/problems/remove-element)
+- [x] [27. 移除元素-Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_27_removeElement.java)
 - [ ] [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr)
 - [ ] [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers)
 - [ ] [32. 最长有效括号-Hard](https://leetcode-cn.com/problems/longest-valid-parentheses/)
@@ -82,6 +82,7 @@
 | #24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [SwapPairs](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_24_SwapPairs.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Medium |                                                              |
 | #25   | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [ReverseKGroup](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_25_reverseKGroup.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Hard   |                                                              |
 | #26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [RemoveDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_26_removeDuplicates.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
+| #27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [RemoveElement](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_27_removeElement.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
 | #33   | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Search](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_33_search.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [SearchRange](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_34_searchRange.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [SearchInsert](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_35_searchInsert.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
