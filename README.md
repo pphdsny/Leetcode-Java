@@ -14,9 +14,17 @@
 ## 20190415-20190422待解题目列表
 
 - [x] [27. 移除元素-Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_27_removeElement.java)
+
 - [x] [28. 实现strStr()-Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_28_strStr.java)
-- [ ] [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers)
+
+- [x] [29. 两数相除-Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_29_divide.java)
+
+- [ ] [30. 串联所有单词的子串-Hard](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+
+- [ ]  [31. 下一个排列-Medium](https://leetcode-cn.com/problems/next-permutation/)
+
 - [ ] [32. 最长有效括号-Hard](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+
 - [ ] [301. 删除无效的括号-Hard](https://leetcode-cn.com/problems/remove-invalid-parentheses/)
 
 ## 已解题目
@@ -84,6 +92,7 @@
 | #26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [RemoveDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_26_removeDuplicates.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
 | #27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [RemoveElement](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_27_removeElement.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
 | #28   | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [StrStr](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_28_strStr.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Easy   |                                                              |
+| #29   | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [Divide](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_29_divide.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #33   | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Search](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_33_search.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [SearchRange](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_34_searchRange.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [SearchInsert](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_35_searchInsert.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
