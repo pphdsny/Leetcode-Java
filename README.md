@@ -23,9 +23,16 @@
 
 - [x] [31. 下一个排列-Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_31_nextPermutation.java)
 
-- [ ] [32. 最长有效括号-Hard](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+- [x] [32. 最长有效括号-Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_32_longestValidParentheses.java)
 
 - [ ] [301. 删除无效的括号-Hard](https://leetcode-cn.com/problems/remove-invalid-parentheses/)
+
+> 预告：下周的题目会是和动态规划相关的，动态规划解题四部曲，可供参考
+>
+> - 确认**原问题与子问题**:
+> - 确认**状态**: 
+> - 确认**边界状态的值**:
+> - 确定**状态转移方程**:
 
 ## 已解题目
 
@@ -60,7 +67,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中）
+### 题目列表（更新中--已完成143）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -95,6 +102,7 @@
 | #29   | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [Divide](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_29_divide.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #30   | [串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [FindSubstring](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_30_findSubstring.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Hard   |                                                              |
 | #31   | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [NextPermutation](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_31_nextPermutation.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
+| #32   | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [LongestValidParentheses](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_32_longestValidParentheses.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #33   | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Search](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_33_search.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [SearchRange](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_34_searchRange.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [SearchInsert](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_35_searchInsert.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
