@@ -21,7 +21,7 @@
 > - 确定**状态转移方程**:
 
 - [x] [746. 使用最小花费爬楼梯 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_746_minCostClimbingStairs.java)
-- [ ] [1025. 除数博弈 -EASY](https://leetcode-cn.com/problems/divisor-game)
+- [x] [1025. 除数博弈 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1025_divisorGame.java)
 - [ ] [91. 解码方法 -MEDIUM](https://leetcode-cn.com/problems/decode-ways)
 - [ ] [95. 不同的二叉搜索树 II -MEDIUM](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)
 - [ ] [139. 单词拆分 -MEDIUM](https://leetcode-cn.com/problems/word-break)
@@ -61,7 +61,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成143）
+### 题目列表（更新中--已完成145）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -204,6 +204,7 @@
 | #746  | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [MinCostClimbingStairs](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_746_minCostClimbingStairs.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 | #978  | [最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [MaxTurbulenceSize](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_978_maxTurbulenceSize.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 | #1004 | [最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | [LongestOnes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1004_longestOnes.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
+| #1025 | [除数博弈](https://leetcode-cn.com/problems/divisor-game/)   | [DivisorGame](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1025_divisorGame.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 
 
 
