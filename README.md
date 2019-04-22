@@ -11,28 +11,22 @@
 - 欢迎star、fork、交流，一起互勉
 - 微信号：pp_hdsny（备注leetcode）
 - 网址：https://leetcode-cn.com/
-## 20190415-20190422待解题目列表
+## 20190422-20190428待解题目列表（动态规划）
 
-- [x] [27. 移除元素-Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_27_removeElement.java)
-
-- [x] [28. 实现strStr()-Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_28_strStr.java)
-
-- [x] [29. 两数相除-Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_29_divide.java)
-
-- [x] [30. 串联所有单词的子串-Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_30_findSubstring.java)
-
-- [x] [31. 下一个排列-Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_31_nextPermutation.java)
-
-- [x] [32. 最长有效括号-Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_32_longestValidParentheses.java)
-
-- [ ] [301. 删除无效的括号-Hard](https://leetcode-cn.com/problems/remove-invalid-parentheses/)
-
-> 预告：下周的题目会是和动态规划相关的，动态规划解题四部曲，可供参考
+> 动态规划解题四部曲，可供参考
 >
 > - 确认**原问题与子问题**:
 > - 确认**状态**: 
 > - 确认**边界状态的值**:
 > - 确定**状态转移方程**:
+
+- [ ] [746. 使用最小花费爬楼梯 -EASY](https://leetcode-cn.com/problems/min-cost-climbing-stairs)
+- [ ] [1025. 除数博弈 -EASY](https://leetcode-cn.com/problems/divisor-game)
+- [ ] [91. 解码方法 -MEDIUM](https://leetcode-cn.com/problems/decode-ways)
+- [ ] [95. 不同的二叉搜索树 II -MEDIUM](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)
+- [ ] [139. 单词拆分 -MEDIUM](https://leetcode-cn.com/problems/word-break)
+- [ ] [44. 通配符匹配 -HARD](https://leetcode-cn.com/problems/wildcard-matching)
+- [ ] [72. 编辑距离 -HARD](https://leetcode-cn.com/problems/edit-distance)
 
 ## 已解题目
 
