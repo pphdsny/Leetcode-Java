@@ -20,7 +20,7 @@
 > - 确认**边界状态的值**:
 > - 确定**状态转移方程**:
 
-- [ ] [746. 使用最小花费爬楼梯 -EASY](https://leetcode-cn.com/problems/min-cost-climbing-stairs)
+- [x] [746. 使用最小花费爬楼梯 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_746_minCostClimbingStairs.java)
 - [ ] [1025. 除数博弈 -EASY](https://leetcode-cn.com/problems/divisor-game)
 - [ ] [91. 解码方法 -MEDIUM](https://leetcode-cn.com/problems/decode-ways)
 - [ ] [95. 不同的二叉搜索树 II -MEDIUM](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)
@@ -201,6 +201,7 @@
 | #653  | [两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [FindTarget](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_653_findTarget.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #674  | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [FindLengthOfLCIS](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_674_findLengthOfLCIS_e.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
 | #695  | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [MaxAreaOfIsland](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_695_maxAreaOfIsland.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
+| #746  | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [MinCostClimbingStairs](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_746_minCostClimbingStairs.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 | #978  | [最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [MaxTurbulenceSize](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_978_maxTurbulenceSize.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 | #1004 | [最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | [LongestOnes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1004_longestOnes.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 
