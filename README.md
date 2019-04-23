@@ -22,7 +22,7 @@
 
 - [x] [746. 使用最小花费爬楼梯 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_746_minCostClimbingStairs.java)
 - [x] [1025. 除数博弈 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1025_divisorGame.java)
-- [ ] [91. 解码方法 -MEDIUM](https://leetcode-cn.com/problems/decode-ways)
+- [x] [91. 解码方法 -MEDIUM](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_91_numDecodings.java)
 - [ ] [95. 不同的二叉搜索树 II -MEDIUM](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)
 - [ ] [139. 单词拆分 -MEDIUM](https://leetcode-cn.com/problems/word-break)
 - [ ] [44. 通配符匹配 -HARD](https://leetcode-cn.com/problems/wildcard-matching)
@@ -61,7 +61,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成145）
+### 题目列表（更新中--已完成146）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -122,6 +122,7 @@
 | #80   | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [RemoveDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_80_removeDuplicates.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #86   | [分隔链表](https://leetcode-cn.com/problems/partition-list/) | [Partition](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_86_Partition.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #90   | [子集 II](https://leetcode-cn.com/problems/subsets-ii/)      | [SubsetsWithDup](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_90_subsetsWithDup.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
+| #91   | [解码方法](https://leetcode-cn.com/problems/decode-ways/)    | [NumDecodings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_91_numDecodings.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | [ReverseBetween](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_92_ReverseBetween.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Medium |                                                              |
 | #93   | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/) | [RestoreIpAddresses](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_93_restoreIpAddresses.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #103  | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [ZigzagLevelOrder](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_103_zigzagLevelOrder.java) | [栈](https://leetcode-cn.com/tag/stack/)、[树](https://leetcode-cn.com/tag/tree/)、[BFS](https://leetcode-cn.com/tag/breadth-first-search/) | Medium |                                                              |
