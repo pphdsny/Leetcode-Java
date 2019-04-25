@@ -28,7 +28,7 @@
 
 - [x] [95. 不同的二叉搜索树 II -MEDIUM](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_95_generateTrees.java)
 
-- [ ] [139. 单词拆分 -MEDIUM](https://leetcode-cn.com/problems/word-break)
+- [x] [139. 单词拆分 -MEDIUM](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_139_wordBreak.java)
 
 - [ ] [44. 通配符匹配 -HARD](https://leetcode-cn.com/problems/wildcard-matching)
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成146）
+### 题目列表（更新中--已完成147）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -148,6 +148,7 @@
 | #127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [LadderLength](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_127_ladderLength_2.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)     | Medium | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_127_ladderLength.java) |
 | #128  | [最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [LongestConsecutive](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_128_longestConsecutive.java) | [并查集](https://leetcode-cn.com/tag/union-find/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #138  | [复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [CopyRandomList](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_138_CopyRandomList.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[链表](https://leetcode-cn.com/tag/linked-list/) | Medium |                                                              |
+| #139  | [单词拆分](https://leetcode-cn.com/problems/word-break/)     | [WordBreak](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_139_wordBreak.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium | 回溯实现耗时                                                 |
 | #141  | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [HasCycle](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_141_HasCycle.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
 | #142  | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [DetectCycle](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_142_DetectCycle.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #146  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)   | [LRUCache](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_146_LRUCache.java) | [设计](https://leetcode-cn.com/tag/design/)                  | Hard   |                                                              |
