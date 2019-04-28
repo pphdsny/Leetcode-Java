@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成147道
+- leetcode练习，坚持每天一道，目前已完成148道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -34,7 +34,7 @@
 
 - [ ] [72. 编辑距离 -HARD](https://leetcode-cn.com/problems/edit-distance)
 
-- [ ] [639. 解码方法 2-HARD](https://leetcode-cn.com/problems/decode-ways-ii/)
+- [x] [639. 解码方法 2-HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_639_numDecodings.java)
 
 ## 已解题目
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成147）
+### 题目列表（更新中--已完成148）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -209,6 +209,7 @@
 | #547  | [朋友圈](https://leetcode-cn.com/problems/friend-circles/)   | [FindCircleNum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_547_findCircleNum_2.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)、[并查集](https://leetcode-cn.com/tag/union-find/) | Medium |                                                              |
 | #563  | [二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/) | [FindTilt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_563_findTilt.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #567  | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [CheckInclusion](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_567_checkInclusion.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)        | Medium |                                                              |
+| #639  | [解码方法 2](https://leetcode-cn.com/problems/decode-ways-ii/) | [NumDecodings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_639_numDecodings.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #653  | [两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [FindTarget](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_653_findTarget.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #674  | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [FindLengthOfLCIS](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_674_findLengthOfLCIS_e.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
 | #695  | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [MaxAreaOfIsland](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_695_maxAreaOfIsland.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
