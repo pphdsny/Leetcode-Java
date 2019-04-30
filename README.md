@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成148道
+- leetcode练习，坚持每天一道，目前已完成149道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -30,7 +30,7 @@
 
 - [x] [139. 单词拆分 -MEDIUM](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_139_wordBreak.java)
 
-- [ ] [44. 通配符匹配 -HARD](https://leetcode-cn.com/problems/wildcard-matching)
+- [x] [44. 通配符匹配 -HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_44_isMatch.java)
 
 - [ ] [72. 编辑距离 -HARD](https://leetcode-cn.com/problems/edit-distance)
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成148）
+### 题目列表（更新中--已完成149）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -111,6 +111,7 @@
 | #40   | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [CombinationSum2](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_40_combinationSum2.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #42   | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [Trap](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_42_trap.java) | [栈](https://leetcode-cn.com/tag/stack/)、[数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Hard   |                                                              |
 | #43   | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [Multiply](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_43_multiply.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
+| #44   | [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [IsMatch](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_44_isMatch.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Hard   |                                                              |
 | #45   | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [Jump](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_45_jump.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [GroupAnagrams](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_49_groupAnagrams.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
 | #51   | [N皇后](https://leetcode-cn.com/problems/n-queens/)          | [SolveNQueens](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens_2.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Hard   | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens.java) |
