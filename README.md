@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成149道
+- leetcode练习，坚持每天一道，目前已完成150道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -32,7 +32,7 @@
 
 - [x] [44. 通配符匹配 -HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_44_isMatch.java)
 
-- [ ] [72. 编辑距离 -HARD](https://leetcode-cn.com/problems/edit-distance)
+- [x] [72. 编辑距离 -HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_72_minDistance.java)
 
 - [x] [639. 解码方法 2-HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_639_numDecodings.java)
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成149）
+### 题目列表（更新中--已完成150）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -126,6 +126,7 @@
 | #69   | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/)        | [MySqrt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_69_mySqrt.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
 | #70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [ClimbStairs](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_70_climbStairs.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   | 经典题                                                       |
 | #71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)  | [SimplifyPath](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_71_simplifyPath.java) | [栈](https://leetcode-cn.com/tag/stack/)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
+| #72   | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)  | [MinDistance](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_72_minDistance.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #76   | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | [MinWindow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_76_minWindow.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[字符串](<https://leetcode-cn.com/tag/string/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Hard   |                                                              |
 | #78   | [子集](https://leetcode-cn.com/problems/subsets/)            | [Subsets](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_78_subsets.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)、[数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #80   | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [RemoveDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_80_removeDuplicates.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
