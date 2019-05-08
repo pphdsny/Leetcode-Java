@@ -11,7 +11,7 @@
 - 欢迎star、fork、交流，一起互勉
 - 微信号：pp_hdsny（备注leetcode）
 - 网址：https://leetcode-cn.com/
-## 20190422-20190428待解题目列表（动态规划）
+## 20190506-20190512待解题目列表（动态规划）
 
 > 动态规划解题四部曲，可供参考
 >
@@ -20,21 +20,21 @@
 > - 确认**边界状态的值**:
 > - 确定**状态转移方程**:
 
-- [x] [746. 使用最小花费爬楼梯 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_746_minCostClimbingStairs.java)
+鉴于上周做的动态规划Hard的太难了，这周全是Medium的练练手，习惯动态规划的解题思路
 
-- [x] [1025. 除数博弈 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1025_divisorGame.java)
+- [ ]  [152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/)
 
-- [x] [91. 解码方法 -MEDIUM](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_91_numDecodings.java)
+- [ ]  [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
 
-- [x] [95. 不同的二叉搜索树 II -MEDIUM](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_95_generateTrees.java)
+- [ ]  [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
 
-- [x] [139. 单词拆分 -MEDIUM](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_139_wordBreak.java)
+- [ ]  [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
-- [x] [44. 通配符匹配 -HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_44_isMatch.java)
+- [ ]  [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
-- [x] [72. 编辑距离 -HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_72_minDistance.java)
+- [ ]  [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
 
-- [x] [639. 解码方法 2-HARD](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_639_numDecodings.java)
+- [ ]  [343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
 
 ## 已解题目
 
