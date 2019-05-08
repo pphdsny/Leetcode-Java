@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成150道
+- leetcode练习，坚持每天一道，目前已完成152道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -22,7 +22,7 @@
 
 鉴于上周做的动态规划Hard的太难了，这周全是Medium的练练手，习惯动态规划的解题思路
 
-- [ ]  [152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/)
+- [x]  [152. 乘积最大子序列](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_152_maxProduct.java)
 
 - [ ]  [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成150）
+### 题目列表（更新中--已完成152）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -157,6 +157,7 @@
 | #147  | [对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [InsertionSortList](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_147_insertionSortList.java) | [排序](https://leetcode-cn.com/tag/sort/)、[链表](https://leetcode-cn.com/tag/linked-list/) | Medium |                                                              |
 | #148  | [排序链表](https://leetcode-cn.com/problems/sort-list/)      | [SortList.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_148_sortList.java) | [排序](https://leetcode-cn.com/tag/sort/)、[链表](https://leetcode-cn.com/tag/linked-list/) | Medium |                                                              |
 | #151  | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [ReverseWords](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_151_reverseWords_2.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Medium | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_151_reverseWords.java) |
+| #152  | [乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/) | [MaxProduct](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_152_maxProduct.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #155  | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | [MinStack](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_155_MinStack.java) | [栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |                                                              |
 | #160  | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [GetIntersectionNode](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_160_GetIntersectionNode.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |                                                              |
 | #167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [TwoSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_167_twoSum.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
