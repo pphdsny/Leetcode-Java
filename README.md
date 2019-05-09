@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成152道
+- leetcode练习，坚持每天一道，目前已完成153道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -24,7 +24,7 @@
 
 - [x]  [152. 乘积最大子序列](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_152_maxProduct.java)
 
-- [ ]  [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
+- [x]  [213. 打家劫舍 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_213_rob.java)
 
 - [ ]  [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成152）
+### 题目列表（更新中--已完成153）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -173,6 +173,7 @@
 | #207  | [课程表](https://leetcode-cn.com/problems/course-schedule/)  | [CanFinish](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_207_canFinish.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/)、[图](https://leetcode-cn.com/tag/graph/)、[拓扑排序](https://leetcode-cn.com/tag/topological-sort/) | Medium |                                                              |
 | #208  | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [Trie](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_208_Trie.java) | [设计](https://leetcode-cn.com/tag/design/)、[字典树](https://leetcode-cn.com/tag/trie/) | Medium |                                                              |
 | #211  | [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) | [WordDictionary](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_211_wordDictionary.java) | [设计](https://leetcode-cn.com/tag/design/)、[字典树](https://leetcode-cn.com/tag/trie/)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
+| #213  | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [Rob](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_213_rob.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #214  | [最短回文串](https://leetcode-cn.com/problems/shortest-palindrome/) | [ShortestPalindrome](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_214_shortestPalindrome_2.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Hard   |                                                              |
 | #215  | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [FindKthLargest](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_215_findKthLargest_2.java) | [堆](https://leetcode-cn.com/tag/heap/)、[分治算法](<https://leetcode-cn.com/tag/divide-and-conquer/>) | Medium |                                                              |
 | #221  | [最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [MaximalSquare](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_221_maximalSquare.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
