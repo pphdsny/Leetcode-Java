@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成153道
+- leetcode练习，坚持每天一道，目前已完成154道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -26,7 +26,7 @@
 
 - [x]  [213. 打家劫舍 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_213_rob.java)
 
-- [ ]  [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
+- [x]  [264. 丑数 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_264_nthUglyNumber.java)
 
 - [ ]  [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成153）
+### 题目列表（更新中--已完成154）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -183,6 +183,7 @@
 | #236  | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestor](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_236_lowestCommonAncestor.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Medium |                                                              |
 | #237  | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [DeleteNode](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_237_deleteNode.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |                                                              |
 | #239  | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [MaxSlidingWindow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_239_maxSlidingWindow.java) | [堆](https://leetcode-cn.com/tag/heap/)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Hard   |                                                              |
+| #264  | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)  | [NthUglyNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_264_nthUglyNumber.java) | [堆](https://leetcode-cn.com/tag/heap/)、[数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #290  | [单词模式](https://leetcode-cn.com/problems/word-pattern/)   | [WordPattern](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_290_wordPattern.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)          | Easy   |                                                              |
 | #300  | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [LengthOfLIS](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_300_lengthOfLIS.java) | [二分查找](<https://leetcode-cn.com/tag/binary-search/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #303  | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [NumArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_303_NumArray.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
