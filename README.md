@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成155道
+- leetcode练习，坚持每天一道，目前已完成156道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -30,7 +30,7 @@
 
 - [x]  [279. 完全平方数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_279_numSquares.java)
 
-- [ ]  [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+- [x]  [309. 最佳买卖股票时机含冷冻期](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_309_maxProfit.java)
 
 - [ ]  [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成155）
+### 题目列表（更新中--已完成156）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -190,6 +190,7 @@
 | #303  | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [NumArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_303_NumArray.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 | #304  | [二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | [NumMatrix](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_304_NumMatrix.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #307  | [区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/) | [NumArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_307_NumArray_2.java) | [树状数组](https://leetcode-cn.com/tag/binary-indexed-tree/)、[线段树](https://leetcode-cn.com/tag/segment-tree/) | Medium |                                                              |
+| #309  | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [MaxProfit](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_309_maxProfit.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #315  | [计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | [CountSmaller](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_315_countSmaller_2.java) | [树状数组](https://leetcode-cn.com/tag/binary-indexed-tree/)、[线段树](https://leetcode-cn.com/tag/segment-tree/)、[二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)、[分治算法](<https://leetcode-cn.com/tag/divide-and-conquer/>) | Hard   |                                                              |
 | #322  | [零钱兑换](https://leetcode-cn.com/problems/coin-change/)    | [CoinChange](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_322_coinChange.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #328  | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [OddEvenList](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_328_OddEvenList.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Medium |                                                              |
