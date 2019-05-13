@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成157道
+- leetcode练习，坚持每天一道，目前已完成158道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -34,7 +34,7 @@
 
 - [x]  [338. 比特位计数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_338_countBits.java)
 
-- [ ]  [343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
+- [x]  [343. 整数拆分](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_343_integerBreak.java)
 
 ## 已解题目
 
@@ -69,7 +69,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成157）
+### 题目列表（更新中--已完成158）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -196,6 +196,7 @@
 | #328  | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [OddEvenList](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_328_OddEvenList.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Medium |                                                              |
 | #336  | [回文对](https://leetcode-cn.com/problems/palindrome-pairs/) | [PalindromePairs](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_336_palindromePairs_2.java) | [字典树](https://leetcode-cn.com/tag/trie/)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Hard   |                                                              |
 | #338  | [比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [CountBits](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_338_countBits.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
+| #343  | [整数拆分](https://leetcode-cn.com/problems/integer-break/)  | [IntegerBreak](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_343_integerBreak.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #354  | [俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [MaxEnvelopes.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_354_maxEnvelopes_2.java) | [二分查找](<https://leetcode-cn.com/tag/binary-search/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #376  | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [WiggleMaxLength](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_376_wiggleMaxLength.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #402  | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [RemoveKdigits](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_402_removeKdigits.java) | [堆](https://leetcode-cn.com/tag/heap/)、[贪心算法](https://leetcode-cn.com/tag/greedy/) | Medium |                                                              |
