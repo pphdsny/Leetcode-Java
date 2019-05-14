@@ -11,30 +11,15 @@
 - 欢迎star、fork、交流，一起互勉
 - 微信号：pp_hdsny（备注leetcode）
 - 网址：https://leetcode-cn.com/
-## 20190506-20190512待解题目列表（动态规划）
+## 20190513-20190519待解题目列表
 
-> 动态规划解题四部曲，可供参考
->
-> - 确认**原问题与子问题**:
-> - 确认**状态**: 
-> - 确认**边界状态的值**:
-> - 确定**状态转移方程**:
+开始一道道的刷题了，如有期望刷特定题目的，欢迎提issue。这周出去浪4天，所以只刷三道题目了
 
-鉴于上周做的动态规划Hard的太难了，这周全是Medium的练练手，习惯动态规划的解题思路
+- [ ] [36. 有效的数独-Medium](https://leetcode-cn.com/problems/valid-sudoku/)
 
-- [x]  [152. 乘积最大子序列](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_152_maxProduct.java)
+- [ ] [37. 解数独-Hard](https://leetcode-cn.com/problems/sudoku-solver/)
 
-- [x]  [213. 打家劫舍 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_213_rob.java)
-
-- [x]  [264. 丑数 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_264_nthUglyNumber.java)
-
-- [x]  [279. 完全平方数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_279_numSquares.java)
-
-- [x]  [309. 最佳买卖股票时机含冷冻期](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_309_maxProfit.java)
-
-- [x]  [338. 比特位计数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_338_countBits.java)
-
-- [x]  [343. 整数拆分](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_343_integerBreak.java)
+- [ ] [38. 报数-Easy](https://leetcode-cn.com/problems/count-and-say/)
 
 ## 已解题目
 
