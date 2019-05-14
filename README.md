@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成158道
+- leetcode练习，坚持每天一道，目前已完成159道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -19,7 +19,7 @@
 
 - [ ] [37. 解数独-Hard](https://leetcode-cn.com/problems/sudoku-solver/)
 
-- [ ] [38. 报数-Easy](https://leetcode-cn.com/problems/count-and-say/)
+- [x] [38. 报数-Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_38_countAndSay.java)
 
 ## 已解题目
 
@@ -54,7 +54,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成158）
+### 题目列表（更新中--已完成159）
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -93,6 +93,7 @@
 | #33   | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Search](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_33_search.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [SearchRange](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_34_searchRange.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [SearchInsert](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_35_searchInsert.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
+| #38   | [报数](https://leetcode-cn.com/problems/count-and-say/)      | [CountAndSay](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_38_countAndSay.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Easy   |                                                              |
 | #40   | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [CombinationSum2](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_40_combinationSum2.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #42   | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [Trap](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_42_trap.java) | [栈](https://leetcode-cn.com/tag/stack/)、[数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Hard   |                                                              |
 | #43   | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [Multiply](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_43_multiply.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
