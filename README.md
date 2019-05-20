@@ -11,15 +11,19 @@
 - 欢迎star、fork、交流，一起互勉
 - 微信号：pp_hdsny（备注leetcode）
 - 网址：https://leetcode-cn.com/
-## 20190513-20190519待解题目列表
+## 20190520-20190526待解题目列表
 
-开始一道道的刷题了，如有期望刷特定题目的，欢迎提issue。这周出去浪4天，所以只刷三道题目了
+回溯算法
 
-- [x] [36. 有效的数独-Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_36_isValidSudoku.java)
-- [x] [37. 解数独-Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_37_solveSudoku.java)
-- [x] [38. 报数-Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_38_countAndSay.java)
+- [ ] [39. 组合总和 - Medium](https://leetcode-cn.com/problems/combination-sum/)
 
-下周题目预告：回溯相关题解
+- [ ]  [46. 全排列 - Medium](https://leetcode-cn.com/problems/permutations/)
+
+- [ ]  [47. 全排列 II - Medium](https://leetcode-cn.com/problems/permutations-ii/)
+
+- [ ]  [52. N皇后 II - Hard](https://leetcode-cn.com/problems/n-queens-ii/)
+
+- [ ]  [77. 组合 - Medium](https://leetcode-cn.com/problems/combinations/)
 
 ## 已解题目
 
