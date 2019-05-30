@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成163道
+- leetcode练习，坚持每天一道，目前已完成164道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -15,11 +15,11 @@
 
 回溯算法
 
-- [x] [39. 组合总和 - Medium](https://leetcode-cn.com/problems/combination-sum/)
+- [x] [39. 组合总和 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_39_combinationSum.java)
 
-- [x]  [46. 全排列 - Medium](https://leetcode-cn.com/problems/permutations/)
+- [x]  [46. 全排列 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_46_permute.java)
 
-- [ ]  [47. 全排列 II - Medium](https://leetcode-cn.com/problems/permutations-ii/)
+- [x]  [47. 全排列 II - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_47_permuteUnique.java)
 
 - [ ]  [52. N皇后 II - Hard](https://leetcode-cn.com/problems/n-queens-ii/)
 
@@ -58,7 +58,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成163）
+### 题目列表（更新中--已完成164）
+
+[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -107,6 +109,7 @@
 | #44   | [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [IsMatch](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_44_isMatch.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Hard   |                                                              |
 | #45   | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [Jump](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_45_jump.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #46   | [全排列](https://leetcode-cn.com/problems/permutations/)     | [Permute](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_46_permute.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Medium |                                                              |
+| #47   | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [PermuteUnique](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_47_permuteUnique.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Medium |                                                              |
 | #49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [GroupAnagrams](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_49_groupAnagrams.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
 | #51   | [N皇后](https://leetcode-cn.com/problems/n-queens/)          | [SolveNQueens](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens_2.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Hard   | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens.java) |
 | #53   | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [MaxSubArray.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_53_maxSubArray.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[分治算法](<https://leetcode-cn.com/tag/divide-and-conquer/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
