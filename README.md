@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成165道
+- leetcode练习，坚持每天一道，目前已完成166道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -16,14 +16,12 @@
 回溯算法
 
 - [x] [39. 组合总和 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_39_combinationSum.java)
+- [x] [46. 全排列 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_46_permute.java)
+- [x] [47. 全排列 II - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_47_permuteUnique.java)
+- [x] [52. N皇后 II - Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_52_totalNQueens.java)
+- [x] [77. 组合 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_77_combine.java)
 
-- [x]  [46. 全排列 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_46_permute.java)
-
-- [x]  [47. 全排列 II - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_47_permuteUnique.java)
-
-- [x]  [52. N皇后 II - Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_52_totalNQueens.java)
-
-- [ ]  [77. 组合 - Medium](https://leetcode-cn.com/problems/combinations/)
+后面开始扫题，从LeetCode后面题目开始
 
 ## 已解题目
 
@@ -58,7 +56,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成165）
+### 题目列表（更新中--已完成166）
 
 [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java)
 
@@ -126,6 +124,7 @@
 | #71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)  | [SimplifyPath](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_71_simplifyPath.java) | [栈](https://leetcode-cn.com/tag/stack/)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
 | #72   | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)  | [MinDistance](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_72_minDistance.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #76   | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | [MinWindow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_76_minWindow.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[字符串](<https://leetcode-cn.com/tag/string/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Hard   |                                                              |
+| #77   | [组合](https://leetcode-cn.com/problems/combinations/)       | [Combine](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_77_combine.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Medium |                                                              |
 | #78   | [子集](https://leetcode-cn.com/problems/subsets/)            | [Subsets](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_78_subsets.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)、[数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #80   | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [RemoveDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_80_removeDuplicates.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #86   | [分隔链表](https://leetcode-cn.com/problems/partition-list/) | [Partition](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_86_Partition.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
