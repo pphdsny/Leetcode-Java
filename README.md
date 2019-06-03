@@ -13,15 +13,17 @@
 - 网址：https://leetcode-cn.com/
 ## 本周待解题目列表
 
-回溯算法
+开始扫题，从LeetCode后面题目开始
 
-- [x] [39. 组合总和 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_39_combinationSum.java)
-- [x] [46. 全排列 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_46_permute.java)
-- [x] [47. 全排列 II - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_47_permuteUnique.java)
-- [x] [52. N皇后 II - Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_52_totalNQueens.java)
-- [x] [77. 组合 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_77_combine.java)
+- [ ]  [1049. 最后一块石头的重量 II -Medium](https://leetcode-cn.com/problems/last-stone-weight-ii/)
 
-后面开始扫题，从LeetCode后面题目开始
+- [ ]  [1051. 高度检查器 -Easy](https://leetcode-cn.com/problems/height-checker/)
+
+- [ ]  [1052. 爱生气的书店老板 -Medium](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
+
+- [ ]  [1053. 交换一次的先前排列 -Medium](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/)
+
+- [ ] [1054. 距离相等的条形码 -Medium](https://leetcode-cn.com/problems/distant-barcodes/)
 
 ## 已解题目
 
