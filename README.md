@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成166道
+- leetcode练习，坚持每天一道，目前已完成167道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -15,7 +15,7 @@
 
 开始扫题，从LeetCode后面题目开始
 
-- [ ]  [1049. 最后一块石头的重量 II -Medium](https://leetcode-cn.com/problems/last-stone-weight-ii/)
+- [x]  [1049. 最后一块石头的重量 II -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1049_lastStoneWeightII.java)
 
 - [ ]  [1051. 高度检查器 -Easy](https://leetcode-cn.com/problems/height-checker/)
 
@@ -58,7 +58,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成166）
+### 题目列表（更新中--已完成167）
 
 [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java)
 
@@ -225,6 +225,7 @@
 | #978  | [最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [MaxTurbulenceSize](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_978_maxTurbulenceSize.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 | #1004 | [最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | [LongestOnes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1004_longestOnes.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 | #1025 | [除数博弈](https://leetcode-cn.com/problems/divisor-game/)   | [DivisorGame](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1025_divisorGame.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
+| #1049 | [最后一块石头的重量 II](https://leetcode-cn.com/problems/last-stone-weight-ii/) | [LastStoneWeightII]([Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1049_lastStoneWeightII.java)) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 
 
 
