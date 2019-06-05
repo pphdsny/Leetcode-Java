@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成168道
+- leetcode练习，坚持每天一道，目前已完成169道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -17,7 +17,7 @@
 
 - [x] [1046. 最后一块石头的重量](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1046_lastStoneWeight.java)
 - [x] [1049. 最后一块石头的重量 II -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1049_lastStoneWeightII.java)
-- [ ] [1051. 高度检查器 -Easy](https://leetcode-cn.com/problems/height-checker/)
+- [x] [1051. 高度检查器 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1051_heightChecker.java)
 - [ ] [1052. 爱生气的书店老板 -Medium](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
 - [ ] [1053. 交换一次的先前排列 -Medium](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/)
 - [ ] [1054. 距离相等的条形码 -Medium](https://leetcode-cn.com/problems/distant-barcodes/)
@@ -55,7 +55,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成168）
+### 题目列表（更新中--已完成169）
 
 [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/)
 
@@ -224,6 +224,7 @@
 | #1025 | [除数博弈](https://leetcode-cn.com/problems/divisor-game/)   | [DivisorGame](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1025_divisorGame.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 | #1046 | [最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [LastStoneWeight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1046_lastStoneWeight.java) | [堆](https://leetcode-cn.com/tag/heap/)、[贪心算法](https://leetcode-cn.com/tag/greedy/) | Easy   |                                                              |
 | #1049 | [最后一块石头的重量 II](https://leetcode-cn.com/problems/last-stone-weight-ii/) | [LastStoneWeightII]([Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1049_lastStoneWeightII.java)) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
+| #1051 | [高度检查器](https://leetcode-cn.com/problems/height-checker/) | [HeightChecker](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1051_heightChecker.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
 
 
 
