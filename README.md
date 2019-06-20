@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成172道
+- leetcode练习，坚持每天一道，目前已完成173道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -15,7 +15,7 @@
 
 开始扫题
 
-- [ ] [41. 缺失的第一个正数 -Hard](https://leetcode-cn.com/problems/first-missing-positive/)
+- [x] [41. 缺失的第一个正数 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_41_firstMissingPositive.java)
 
 - [ ]  [48. 旋转图像 -Medium](https://leetcode-cn.com/problems/rotate-image/)
 
@@ -62,7 +62,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成172）
+### 题目列表（更新中--已完成173）
 
 [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/)
 
@@ -108,6 +108,7 @@
 | #38   | [报数](https://leetcode-cn.com/problems/count-and-say/)      | [CountAndSay](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_38_countAndSay.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Easy   |                                                              |
 | #39   | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [CombinationSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_39_combinationSum.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #40   | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [CombinationSum2](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_40_combinationSum2.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
+| #41   | [缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) | [FirstMissingPositive](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_41_firstMissingPositive.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #42   | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [Trap](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_42_trap.java) | [栈](https://leetcode-cn.com/tag/stack/)、[数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Hard   |                                                              |
 | #43   | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [Multiply](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_43_multiply.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
 | #44   | [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [IsMatch](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_44_isMatch.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Hard   |                                                              |
