@@ -13,14 +13,21 @@
 - 网址：https://leetcode-cn.com/
 ## 本周待解题目列表
 
-开始扫题，从LeetCode后面题目开始
+开始扫题
 
-- [x] [1046. 最后一块石头的重量](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1046_lastStoneWeight.java)
-- [x] [1049. 最后一块石头的重量 II -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1049_lastStoneWeightII.java)
-- [x] [1051. 高度检查器 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1051_heightChecker.java)
-- [x] [1052. 爱生气的书店老板 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1052_maxSatisfied.java)
-- [x] [1053. 交换一次的先前排列 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1053_prevPermOpt1.java)
-- [x] [1054. 距离相等的条形码 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1054_rearrangeBarcodes.java)
+- [ ] [41. 缺失的第一个正数 -Hard](https://leetcode-cn.com/problems/first-missing-positive/)
+
+- [ ]  [48. 旋转图像 -Medium](https://leetcode-cn.com/problems/rotate-image/)
+
+- [ ]  [50. Pow(x, n) -Medium](https://leetcode-cn.com/problems/powx-n/)
+
+- [ ]  [54. 螺旋矩阵 -Medium](https://leetcode-cn.com/problems/spiral-matrix/)
+
+- [ ]  [57. 插入区间 -Hard](https://leetcode-cn.com/problems/insert-interval/)
+
+- [ ]  [58. 最后一个单词的长度 -Easy](https://leetcode-cn.com/problems/length-of-last-word/)
+
+- [ ]  [59. 螺旋矩阵 II -Medium](https://leetcode-cn.com/problems/spiral-matrix-ii/)
 
 ## 已解题目
 
