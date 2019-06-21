@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成173道
+- leetcode练习，坚持每天一道，目前已完成174道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -17,7 +17,7 @@
 
 - [x] [41. 缺失的第一个正数 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_41_firstMissingPositive.java)
 
-- [ ]  [48. 旋转图像 -Medium](https://leetcode-cn.com/problems/rotate-image/)
+- [x]  [48. 旋转图像 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_48_rotate.java)
 
 - [ ]  [50. Pow(x, n) -Medium](https://leetcode-cn.com/problems/powx-n/)
 
@@ -62,7 +62,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成173）
+### 题目列表（更新中--已完成174）
 
 [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/)
 
@@ -115,6 +115,7 @@
 | #45   | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [Jump](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_45_jump.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #46   | [全排列](https://leetcode-cn.com/problems/permutations/)     | [Permute](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_46_permute.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Medium |                                                              |
 | #47   | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [PermuteUnique](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_47_permuteUnique.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Medium |                                                              |
+| #48   | [旋转图像](https://leetcode-cn.com/problems/rotate-image/)   | [Rotate](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_48_rotate.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [GroupAnagrams](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_49_groupAnagrams.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
 | #51   | [N皇后](https://leetcode-cn.com/problems/n-queens/)          | [SolveNQueens](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens_2.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Hard   | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens.java) |
 | #52   | [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)    | [TotalNQueens](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_52_totalNQueens.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Hard   |                                                              |
