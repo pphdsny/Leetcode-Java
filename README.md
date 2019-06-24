@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成175道
+- leetcode练习，坚持每天一道，目前已完成176道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -21,7 +21,7 @@
 
 - [x]  [50. Pow(x, n) -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_50_myPow.java)
 
-- [ ]  [54. 螺旋矩阵 -Medium](https://leetcode-cn.com/problems/spiral-matrix/)
+- [x]  [54. 螺旋矩阵 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_54_spiralOrder.java)
 
 - [ ]  [57. 插入区间 -Hard](https://leetcode-cn.com/problems/insert-interval/)
 
@@ -64,7 +64,7 @@
 
 ### 题目列表（更新中--已完成175）
 
-​	
+​	[数组](<https://leetcode-cn.com/tag/array/>)  Medium  
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -121,6 +121,7 @@
 | #51   | [N皇后](https://leetcode-cn.com/problems/n-queens/)          | [SolveNQueens](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens_2.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Hard   | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_51_solveNQueens.java) |
 | #52   | [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)    | [TotalNQueens](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_52_totalNQueens.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Hard   |                                                              |
 | #53   | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [MaxSubArray.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_53_maxSubArray.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[分治算法](<https://leetcode-cn.com/tag/divide-and-conquer/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
+| #54   | [螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)  | [SpiralOrder](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_54_spiralOrder.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #55   | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/)      | [CanJump](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_55_canJump.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #56   | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Merge](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_56_merge.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #60   | [第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) | [GetPermutation](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_60_getPermutation_m.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
