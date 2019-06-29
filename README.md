@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成176道
+- leetcode练习，坚持每天一道，目前已完成177道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -23,7 +23,7 @@
 
 - [x]  [54. 螺旋矩阵 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_54_spiralOrder.java)
 
-- [ ]  [57. 插入区间 -Hard](https://leetcode-cn.com/problems/insert-interval/)
+- [x]  [57. 插入区间 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_57_insert.java)
 
 - [ ]  [58. 最后一个单词的长度 -Easy](https://leetcode-cn.com/problems/length-of-last-word/)
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成175）
+### 题目列表（更新中--已完成177）
 
-​	[数组](<https://leetcode-cn.com/tag/array/>)  Medium  
+​	[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_57_insert.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -124,6 +124,7 @@
 | #54   | [螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)  | [SpiralOrder](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_54_spiralOrder.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #55   | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/)      | [CanJump](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_55_canJump.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #56   | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Merge](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_56_merge.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
+| #57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [Insert.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_57_insert.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #60   | [第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) | [GetPermutation](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_60_getPermutation_m.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #61   | [旋转链表](https://leetcode-cn.com/problems/rotate-list/)    | [RotateRight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_61_RotateRight.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #62   | [不同路径](https://leetcode-cn.com/problems/unique-paths/)   | [UniquePaths](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_62_uniquePaths.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
