@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成178道
+- leetcode练习，坚持每天一道，目前已完成179道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -27,7 +27,7 @@
 
 - [x]  [58. 最后一个单词的长度 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_58_lengthOfLastWord.java)
 
-- [ ]  [59. 螺旋矩阵 II -Medium](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+- [x]  [59. 螺旋矩阵 II -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_59_generateMatrix.java)
 
 ## 已解题目
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成178）
+### 题目列表（更新中--已完成179）
 
-​	[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_58_lengthOfLastWord.java)
+​	[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_59_generateMatrix.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -126,6 +126,7 @@
 | #56   | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Merge](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_56_merge.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [Insert.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_57_insert.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) | [LengthOfLastWord](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_58_lengthOfLastWord.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Easy   |                                                              |
+| #59   | [螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [GenerateMatrix](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_59_generateMatrix.java) |                                                              |        |                                                              |
 | #60   | [第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) | [GetPermutation](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_60_getPermutation_m.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #61   | [旋转链表](https://leetcode-cn.com/problems/rotate-list/)    | [RotateRight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_61_RotateRight.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #62   | [不同路径](https://leetcode-cn.com/problems/unique-paths/)   | [UniquePaths](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_62_uniquePaths.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
