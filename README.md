@@ -11,23 +11,23 @@
 - 欢迎star、fork、交流，一起互勉
 - 微信号：pp_hdsny（备注leetcode）
 - 网址：https://leetcode-cn.com/
-## 本周待解题目列表
+## 待解题目列表
 
-开始扫题
+扫题：热题 Hot 100
 
-- [x] [41. 缺失的第一个正数 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_41_firstMissingPositive.java)
+- [ ]  [75. 颜色分类 -Medium](https://leetcode-cn.com/problems/sort-colors/)
 
-- [x]  [48. 旋转图像 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_48_rotate.java)
+- [ ]  [79. 单词搜索 -Medium](https://leetcode-cn.com/problems/word-search/)
 
-- [x]  [50. Pow(x, n) -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_50_myPow.java)
+- [ ]  [84. 柱状图中最大的矩形 -Hard](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
-- [x]  [54. 螺旋矩阵 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_54_spiralOrder.java)
+- [ ]  [85. 最大矩形 -Hard](https://leetcode-cn.com/problems/maximal-rectangle/)
 
-- [x]  [57. 插入区间 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_57_insert.java)
+- [ ]  [94. 二叉树的中序遍历 -Medium](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
-- [x]  [58. 最后一个单词的长度 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_58_lengthOfLastWord.java)
+- [ ]  [98. 验证二叉搜索树 -Medium](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
-- [x]  [59. 螺旋矩阵 II -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_59_generateMatrix.java)
+- [ ]  [101. 对称二叉树 -Easy](https://leetcode-cn.com/problems/symmetric-tree/)
 
 ## 已解题目
 
@@ -126,7 +126,7 @@
 | #56   | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Merge](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_56_merge.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [Insert.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_57_insert.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) | [LengthOfLastWord](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_58_lengthOfLastWord.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Easy   |                                                              |
-| #59   | [螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [GenerateMatrix](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_59_generateMatrix.java) |                                                              |        |                                                              |
+| #59   | [螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [GenerateMatrix](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_59_generateMatrix.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #60   | [第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) | [GetPermutation](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_60_getPermutation_m.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #61   | [旋转链表](https://leetcode-cn.com/problems/rotate-list/)    | [RotateRight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_61_RotateRight.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #62   | [不同路径](https://leetcode-cn.com/problems/unique-paths/)   | [UniquePaths](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_62_uniquePaths.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
