@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成183道
+- leetcode练习，坚持每天一道，目前已完成184道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -23,7 +23,7 @@
 
 - [x]  [85. 最大矩形 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_85_maximalRectangle.java)
 
-- [ ]  [94. 二叉树的中序遍历 -Medium](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [x]  [94. 二叉树的中序遍历 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_94_inorderTraversal.java)
 
 - [ ]  [98. 验证二叉搜索树 -Medium](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成183）
+### 题目列表（更新中--已完成184）
 
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_85_maximalRectangle.java)
+[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_94_inorderTraversal.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -149,6 +149,7 @@
 | #91   | [解码方法](https://leetcode-cn.com/problems/decode-ways/)    | [NumDecodings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_91_numDecodings.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | [ReverseBetween](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_92_ReverseBetween.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Medium |                                                              |
 | #93   | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/) | [RestoreIpAddresses](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_93_restoreIpAddresses.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
+| #94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [InorderTraversal](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_94_inorderTraversal.java) | [栈](https://leetcode-cn.com/tag/stack/)、[树](https://leetcode-cn.com/tag/tree/)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>) | Medium |                                                              |
 | #95   | [不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) | [GenerateTrees](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_95_generateTrees.java) | [树](https://leetcode-cn.com/tag/tree/)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium | DP实现未想到                                                 |
 | #103  | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [ZigzagLevelOrder](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_103_zigzagLevelOrder.java) | [栈](https://leetcode-cn.com/tag/stack/)、[树](https://leetcode-cn.com/tag/tree/)、[BFS](https://leetcode-cn.com/tag/breadth-first-search/) | Medium |                                                              |
 | #104  | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [MaxDepth](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_104_maxDepth.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Easy   |                                                              |
