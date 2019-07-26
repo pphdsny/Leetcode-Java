@@ -15,19 +15,19 @@
 
 扫题：热题 Hot 100
 
-- [x]  [75. 颜色分类 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_75_sortColors.java)
+- [ ] [102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
-- [x]  [79. 单词搜索 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_79_exist.java)
+- [ ]  [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
-- [x]  [84. 柱状图中最大的矩形 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_84_largestRectangleArea.java)
+- [ ]  [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 
-- [x]  [85. 最大矩形 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_85_maximalRectangle.java)
+- [ ]  [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 
-- [x]  [94. 二叉树的中序遍历 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_94_inorderTraversal.java)
+- [ ]  [169. 求众数](https://leetcode-cn.com/problems/majority-element/)
 
-- [x]  [98. 验证二叉搜索树 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_98_isValidBST.java)
+- [ ]  [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 
-- [x]  [101. 对称二叉树 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_101_isSymmetric.java)
+- [ ]  [238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
 
 ## 已解题目
 
