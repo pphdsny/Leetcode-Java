@@ -42,6 +42,10 @@ public class _102_levelOrder {
         for (int i = 0; i < lists.size(); i++) {
             Util.printList(lists.get(i));
         }
+        List<List<Integer>> lists2 = levelOrder.levelOrder2(Util.generateTreeNode());
+        for (int i = 0; i < lists2.size(); i++) {
+            Util.printList(lists2.get(i));
+        }
     }
 
     /**
@@ -51,6 +55,9 @@ public class _102_levelOrder {
      * 2.将队列中数据取空
      * 3.将取出的treeNode的左右子树存入队列并将结果存入结果集
      * 4.重复1-3直到队列无数据
+     *
+     * 优化：可以把2-3合并成一步，你会咋弄？
+     * 优化方案{@link _102_levelOrder#levelOrder2(TreeNode)}
      *
      * @param root
      * @return
@@ -79,6 +86,34 @@ public class _102_levelOrder {
                 }
                 result.add(addList);
             }
+        }
+        return result;
+    }
+
+    /**
+     * 优化：将2-3合并
+     *
+     * @param root
+     * @return
+     */
+    public List<List<Integer>> levelOrder2(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+        if (root == null) return result;
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        //1
+        queue.add(root);
+        //4
+        while (!queue.isEmpty()) {
+            List<Integer> addList = new ArrayList<>();
+            //2-3
+            int depth = queue.size();
+            for (int i = 0; i < depth; i++) {
+                TreeNode treeNode = queue.poll();
+                addList.add(treeNode.val);
+                if (treeNode.left != null) queue.add(treeNode.left);
+                if (treeNode.right != null) queue.add(treeNode.right);
+            }
+            if (addList.size() > 0) result.add(addList);
         }
         return result;
     }
