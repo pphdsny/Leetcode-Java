@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成188道
+- leetcode练习，坚持每天一道，目前已完成189道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -15,11 +15,11 @@
 
 扫题：热题 Hot 100
 
-- [x] [102. 二叉树的层次遍历](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_102_levelOrder.java)
+- [x] [102. 二叉树的层次遍历 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_102_levelOrder.java)
 
-- [x]  [105. 从前序与中序遍历序列构造二叉树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_105_buildTree.java)
+- [x]  [105. 从前序与中序遍历序列构造二叉树 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_105_buildTree.java)
 
-- [ ]  [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+- [x]  [124. 二叉树中的最大路径和 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_124_maxPathSum.java)
 
 - [ ]  [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成188）
+### 题目列表（更新中--已完成189）
 
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_105_buildTree.java)
+[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_124_maxPathSum.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -164,6 +164,7 @@
 | #121  | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [MaxProfit](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_121_maxProfit.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 | #122  | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [MaxProfit](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_122_maxProfit.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Easy   |                                                              |
 | #123  | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | [MaxProfit](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_123_maxProfit.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
+| #124  | [二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [MaxPathSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_124_maxPathSum.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Hard   |                                                              |
 | #125  | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | //待提交                                                     | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Easy   |                                                              |
 | #126  | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/) | [FindLadders](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_126_findLadders.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[数组](<https://leetcode-cn.com/tag/array/>)、[字符串](<https://leetcode-cn.com/tag/string/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Hard   |                                                              |
 | #127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [LadderLength](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_127_ladderLength_2.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)     | Medium | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_127_ladderLength.java) |
