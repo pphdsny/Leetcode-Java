@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成190道
+- leetcode练习，坚持每天一道，目前已完成191道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -21,9 +21,9 @@
 
 - [x]  [124. 二叉树中的最大路径和 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_124_maxPathSum.java)
 
-- [x]  [136. 只出现一次的数字](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java)
+- [x]  [136. 只出现一次的数字 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java)
 
-- [ ]  [169. 求众数](https://leetcode-cn.com/problems/majority-element/)
+- [x]  [169. 求众数 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_169_majorityElement.java)
 
 - [ ]  [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成190）
+### 题目列表（更新中--已完成191）
 
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java)
+[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_169_majorityElement.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -182,6 +182,7 @@
 | #155  | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | [MinStack](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_155_MinStack.java) | [栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |                                                              |
 | #160  | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [GetIntersectionNode](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_160_GetIntersectionNode.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |                                                              |
 | #167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [TwoSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_167_twoSum.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
+| #169  | [求众数](https://leetcode-cn.com/problems/majority-element/) | [MajorityElement](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_169_majorityElement.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)、[数组](<https://leetcode-cn.com/tag/array/>)、[分治算法](<https://leetcode-cn.com/tag/divide-and-conquer/>) | Easy   |                                                              |
 | #174  | [地下城游戏](https://leetcode-cn.com/problems/dungeon-game/) | [CalculateMinimumHP](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_174_calculateMinimumHP.java) | [二分查找](<https://leetcode-cn.com/tag/binary-search/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #187  | [重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/) | [FindRepeatedDnaSequences](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_187_findRepeatedDnaSequences.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>) | Medium |                                                              |
 | #188  | [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | [MaxProfit](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_188_maxProfit.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
