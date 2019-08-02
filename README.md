@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成191道
+- leetcode练习，坚持每天一道，目前已完成192道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -25,7 +25,7 @@
 
 - [x]  [169. 求众数 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_169_majorityElement.java)
 
-- [ ]  [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+- [x]  [226. 翻转二叉树-EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java)
 
 - [ ]  [238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成191）
+### 题目列表（更新中--已完成192）
 
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_169_majorityElement.java)
+[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -200,6 +200,7 @@
 | #215  | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [FindKthLargest](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_215_findKthLargest_2.java) | [堆](https://leetcode-cn.com/tag/heap/)、[分治算法](<https://leetcode-cn.com/tag/divide-and-conquer/>) | Medium |                                                              |
 | #221  | [最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [MaximalSquare](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_221_maximalSquare.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #225  | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [MyStack](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_225_MyStack.java) | [栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |                                                              |
+| #226  | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | [InvertTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   | 经典，要能手写                                               |
 | #232  | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [MyQuene](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_232_MyQuene.java) | 栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |                                                              |
 | #234  | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [IsPalindrome](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_234_isPalindrome.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
 | #236  | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestor](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_236_lowestCommonAncestor.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Medium |                                                              |
