@@ -15,19 +15,17 @@
 
 扫题：热题 Hot 100
 
-- [x] [102. 二叉树的层次遍历 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_102_levelOrder.java)
+- [ ]  [240. 搜索二维矩阵 II -Medium](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
 
-- [x]  [105. 从前序与中序遍历序列构造二叉树 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_105_buildTree.java)
+- [ ]  [283. 移动零 -Easy](https://leetcode-cn.com/problems/move-zeroes/)
 
-- [x]  [124. 二叉树中的最大路径和 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_124_maxPathSum.java)
+- [ ]  [287. 寻找重复数 - Medium](https://leetcode-cn.com/problems/find-the-duplicate-number/)
 
-- [x]  [136. 只出现一次的数字 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java)
+- [ ]  [297. 二叉树的序列化与反序列化 -Hard](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 
-- [x]  [169. 求众数 -EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_169_majorityElement.java)
+- [ ]  [301. 删除无效的括号 -Hard](https://leetcode-cn.com/problems/remove-invalid-parentheses/)
 
-- [x]  [226. 翻转二叉树-EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java)
-
-- [x]  [238. 除自身以外数组的乘积](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java)
+- [ ]  [312. 戳气球 - Hard](https://leetcode-cn.com/problems/burst-balloons/)
 
 ## 已解题目
 
