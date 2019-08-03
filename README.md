@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成192道
+- leetcode练习，坚持每天一道，目前已完成193道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -27,7 +27,7 @@
 
 - [x]  [226. 翻转二叉树-EASY](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java)
 
-- [ ]  [238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
+- [x]  [238. 除自身以外数组的乘积](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java)
 
 ## 已解题目
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成192）
+### 题目列表（更新中--已完成193）
 
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java)
+[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -201,10 +201,11 @@
 | #221  | [最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [MaximalSquare](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_221_maximalSquare.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #225  | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [MyStack](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_225_MyStack.java) | [栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |                                                              |
 | #226  | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | [InvertTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_226_invertTree.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   | 经典，要能手写                                               |
-| #232  | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [MyQuene](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_232_MyQuene.java) | 栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |                                                              |
+| #232  | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [MyQuene](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_232_MyQuene.java) | [栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |                                                              |
 | #234  | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [IsPalindrome](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_234_isPalindrome.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
 | #236  | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [LowestCommonAncestor](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_236_lowestCommonAncestor.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Medium |                                                              |
 | #237  | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [DeleteNode](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_237_deleteNode.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |                                                              |
+| #238  | [除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [ProductExceptSelf](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #239  | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [MaxSlidingWindow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_239_maxSlidingWindow.java) | [堆](https://leetcode-cn.com/tag/heap/)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Hard   |                                                              |
 | #264  | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)  | [NthUglyNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_264_nthUglyNumber.java) | [堆](https://leetcode-cn.com/tag/heap/)、[数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #279  | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/) | [NumSquares](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_279_numSquares.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
