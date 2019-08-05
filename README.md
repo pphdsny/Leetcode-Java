@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成193道
+- leetcode练习，坚持每天一道，目前已完成194道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -15,7 +15,7 @@
 
 扫题：热题 Hot 100
 
-- [ ]  [240. 搜索二维矩阵 II -Medium](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
+- [x]  [240. 搜索二维矩阵 II -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_240_searchMatrix.java)
 
 - [ ]  [283. 移动零 -Easy](https://leetcode-cn.com/problems/move-zeroes/)
 
@@ -60,9 +60,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成193）
+### 题目列表（更新中--已完成194）
 
-[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java)
+[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_240_searchMatrix.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -205,6 +205,7 @@
 | #237  | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [DeleteNode](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_237_deleteNode.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |                                                              |
 | #238  | [除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [ProductExceptSelf](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #239  | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [MaxSlidingWindow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_239_maxSlidingWindow.java) | [堆](https://leetcode-cn.com/tag/heap/)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Hard   |                                                              |
+| #240  | [搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [SearchMatrix](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_240_searchMatrix.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #264  | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)  | [NthUglyNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_264_nthUglyNumber.java) | [堆](https://leetcode-cn.com/tag/heap/)、[数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #279  | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/) | [NumSquares](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_279_numSquares.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #290  | [单词模式](https://leetcode-cn.com/problems/word-pattern/)   | [WordPattern](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_290_wordPattern.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)          | Easy   |                                                              |
