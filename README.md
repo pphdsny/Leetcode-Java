@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成195道
+- leetcode练习，坚持每天一道，目前已完成196道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -19,7 +19,7 @@
 
 - [x]  [283. 移动零 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_283_moveZeroes.java)
 
-- [ ]  [287. 寻找重复数 - Medium](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+- [x]  [287. 寻找重复数 - Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_287_findDuplicate.java)
 
 - [ ]  [297. 二叉树的序列化与反序列化 -Hard](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 
@@ -60,9 +60,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成195）
+### 题目列表（更新中--已完成196）
 
-[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_283_moveZeroes.java)
+[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_287_findDuplicate.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -209,6 +209,7 @@
 | #264  | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)  | [NthUglyNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_264_nthUglyNumber.java) | [堆](https://leetcode-cn.com/tag/heap/)、[数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #279  | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/) | [NumSquares](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_279_numSquares.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | [MoveZeroes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_283_moveZeroes.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
+| #287  | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [FindDuplicate](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_287_findDuplicate.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
 | #290  | [单词模式](https://leetcode-cn.com/problems/word-pattern/)   | [WordPattern](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_290_wordPattern.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)          | Easy   |                                                              |
 | #300  | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [LengthOfLIS](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_300_lengthOfLIS.java) | [二分查找](<https://leetcode-cn.com/tag/binary-search/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #303  | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [NumArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_303_NumArray.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |

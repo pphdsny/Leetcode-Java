@@ -48,6 +48,8 @@ public class _287_findDuplicate {
      * 1.用快慢指针，找到第一次相遇的点
      * 2.将一个指针移至起始点，再次相遇的一定是环和直线相遇的点，也就是重复数
      *
+     * 计算详解：https://leetcode-cn.com/problems/find-the-duplicate-number/solution/287-xun-zhao-zhong-fu-shu-java-kuai-man-zhi-zhen-t/
+     *
      * @param nums
      * @return
      */
