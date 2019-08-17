@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成197道
+- leetcode练习，坚持每天一道，目前已完成198道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -23,7 +23,7 @@
 
 - [x]  [297. 二叉树的序列化与反序列化 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_297_Codec.java)
 
-- [ ]  [301. 删除无效的括号 -Hard](https://leetcode-cn.com/problems/remove-invalid-parentheses/)
+- [x]  [301. 删除无效的括号 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_301_removeInvalidParentheses.java)
 
 - [ ]  [312. 戳气球 - Hard](https://leetcode-cn.com/problems/burst-balloons/)
 
@@ -60,9 +60,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中--已完成197）
+### 题目列表（更新中--已完成198）
 
-[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_297_Codec.java)
+[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_301_removeInvalidParentheses.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -213,6 +213,7 @@
 | #290  | [单词模式](https://leetcode-cn.com/problems/word-pattern/)   | [WordPattern](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_290_wordPattern.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)          | Easy   |                                                              |
 | #297  | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [Codec](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_297_Codec.java) | [树](https://leetcode-cn.com/tag/tree/)、[设计](https://leetcode-cn.com/tag/design/) | Hard   |                                                              |
 | #300  | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [LengthOfLIS](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_300_lengthOfLIS.java) | [二分查找](<https://leetcode-cn.com/tag/binary-search/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
+| #301  | [删除无效的括号](https://leetcode-cn.com/problems/remove-invalid-parentheses/) | [RemoveInvalidParentheses](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_301_removeInvalidParentheses.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Hard   |                                                              |
 | #303  | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [NumArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_303_NumArray.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 | #304  | [二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | [NumMatrix](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_304_NumMatrix.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #307  | [区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/) | [NumArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_307_NumArray_2.java) | [树状数组](https://leetcode-cn.com/tag/binary-indexed-tree/)、[线段树](https://leetcode-cn.com/tag/segment-tree/) | Medium |                                                              |
