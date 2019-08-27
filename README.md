@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成203道
+- leetcode练习，坚持每天一道，目前已完成204道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -23,7 +23,7 @@
 
 - [x]  [399. 除法求值 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_399_calcEquation.java)
 
-- [ ]  [406. 根据身高重建队列 -Medium](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)
+- [x]  [406. 根据身高重建队列 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_406_reconstructQueue.java)
 
 - [ ]  [416. 分割等和子集 -Medium](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
 
@@ -60,9 +60,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成203）
+### 题目列表（更新中—已完成204）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_399_calcEquation.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_406_reconstructQueue.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -232,6 +232,7 @@
 | #394  | [字符串解码](https://leetcode-cn.com/problems/decode-string/) | [DecodeString](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_394_decodeString.java) | [栈](https://leetcode-cn.com/tag/stack/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #399  | [除法求值](https://leetcode-cn.com/problems/evaluate-division/) | [CalcEquation](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_399_calcEquation.java) | [并查集](https://leetcode-cn.com/tag/union-find/)、[图](https://leetcode-cn.com/tag/graph/) | Medium |                                                              |
 | #402  | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [RemoveKdigits](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_402_removeKdigits.java) | [堆](https://leetcode-cn.com/tag/heap/)、[贪心算法](https://leetcode-cn.com/tag/greedy/) | Medium |                                                              |
+| #406  | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [ReconstructQueue](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_406_reconstructQueue.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)              | Medium |                                                              |
 | #409  | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) | [LongestPalindrome](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_409_longestPalindrome.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)          | Easy   |                                                              |
 | #415  | [字符串相加](https://leetcode-cn.com/problems/add-strings/)  | [AddStrings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_415_addStrings.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Easy   |                                                              |
 | #424  | [替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [CharacterReplacement](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_424_characterReplacement.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
