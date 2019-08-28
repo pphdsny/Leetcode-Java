@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成204道
+- leetcode练习，坚持每天一道，目前已完成205道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -25,7 +25,7 @@
 
 - [x]  [406. 根据身高重建队列 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_406_reconstructQueue.java)
 
-- [ ]  [416. 分割等和子集 -Medium](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
+- [x]  [416. 分割等和子集 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_416_canPartition.java)
 
 ## 已解题目
 
@@ -60,9 +60,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成204）
+### 题目列表（更新中—已完成205）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_406_reconstructQueue.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_416_canPartition.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -235,6 +235,7 @@
 | #406  | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [ReconstructQueue](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_406_reconstructQueue.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)              | Medium |                                                              |
 | #409  | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) | [LongestPalindrome](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_409_longestPalindrome.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)          | Easy   |                                                              |
 | #415  | [字符串相加](https://leetcode-cn.com/problems/add-strings/)  | [AddStrings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_415_addStrings.java) | [字符串](<https://leetcode-cn.com/tag/string/>)              | Easy   |                                                              |
+| #416  | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [CanPartition](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_416_canPartition.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #424  | [替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [CharacterReplacement](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_424_characterReplacement.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 | #432  | [全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/) | [AllOne](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_432_AllOne.java) | [设计](https://leetcode-cn.com/tag/design/)                  | Hard   |                                                              |
 | #438  | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [FindAnagrams](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_438_findAnagrams.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)          | Easy   |                                                              |
