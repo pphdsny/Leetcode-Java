@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成207道
+- leetcode练习，坚持每天一道，目前已完成208道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -21,7 +21,7 @@
 
 - [x] [448. 找到所有数组中消失的数字 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_448_findDisappearedNumbers.java)
 
-- [ ] [461. 汉明距离 -Easy](https://leetcode-cn.com/problems/hamming-distance/)
+- [x] [461. 汉明距离 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java)
 
 - [ ] [494. 目标和 -Medium](https://leetcode-cn.com/problems/target-sum/)
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成207）
+### 题目列表（更新中—已完成208）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_448_findDisappearedNumbers.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -250,6 +250,7 @@
 | #455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) | [FindContentChildren](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_455_findContentChildren.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)              | Easy   |                                                              |
 | #457  | [环形数组循环](https://leetcode-cn.com/problems/circular-array-loop/) | [CircularArrayLoop](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_457_circularArrayLoop.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #460  | [LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)       | [LFUCache](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_460_LFUCache.java) | [设计](https://leetcode-cn.com/tag/design/)                  | Hard   |                                                              |
+| #461  | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [HammingDistance](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)      | Easy   |                                                              |
 | #485  | [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [FindMaxConsecutiveOnes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_485_findMaxConsecutiveOnes.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
 | #516  | [最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [LongestPalindromeSubseq](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_516_longestPalindromeSubseq.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #538  | [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [ConvertBST](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_538_convertBST.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
