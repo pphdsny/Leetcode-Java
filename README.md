@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成208道
+- leetcode练习，坚持每天一道，目前已完成209道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -23,7 +23,7 @@
 
 - [x] [461. 汉明距离 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java)
 
-- [ ] [494. 目标和 -Medium](https://leetcode-cn.com/problems/target-sum/)
+- [x] [494. 目标和 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_494_findTargetSumWays.java)
 
 - [ ] [538. 把二叉搜索树转换为累加树 -Easy](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成208）
+### 题目列表（更新中—已完成209）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_494_findTargetSumWays.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -252,6 +252,7 @@
 | #460  | [LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)       | [LFUCache](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_460_LFUCache.java) | [设计](https://leetcode-cn.com/tag/design/)                  | Hard   |                                                              |
 | #461  | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [HammingDistance](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)      | Easy   |                                                              |
 | #485  | [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [FindMaxConsecutiveOnes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_485_findMaxConsecutiveOnes.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
+| #494  | [目标和](https://leetcode-cn.com/problems/target-sum/)       | [FindTargetSumWays](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_494_findTargetSumWays.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #516  | [最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [LongestPalindromeSubseq](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_516_longestPalindromeSubseq.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #538  | [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [ConvertBST](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_538_convertBST.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #547  | [朋友圈](https://leetcode-cn.com/problems/friend-circles/)   | [FindCircleNum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_547_findCircleNum_2.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)、[并查集](https://leetcode-cn.com/tag/union-find/) | Medium |                                                              |
