@@ -3,7 +3,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成210道
+- leetcode练习，坚持每天一道，目前已完成211道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -27,7 +27,7 @@
 
 - [x] [538. 把二叉搜索树转换为累加树 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_538_convertBST.java)
 
-- [ ] [543. 二叉树的直径 -Easy](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
+- [x] [543. 二叉树的直径 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_543_diameterOfBinaryTree.java)
 
 ## 已解题目
 
@@ -62,9 +62,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成210）
+### 题目列表（更新中—已完成211）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_538_convertBST.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_543_diameterOfBinaryTree.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -255,6 +255,7 @@
 | #494  | [目标和](https://leetcode-cn.com/problems/target-sum/)       | [FindTargetSumWays](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_494_findTargetSumWays.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #516  | [最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [LongestPalindromeSubseq](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_516_longestPalindromeSubseq.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #538  | [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [ConvertBST](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_538_convertBST.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
+| #543  | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [DiameterOfBinaryTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_543_diameterOfBinaryTree.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #547  | [朋友圈](https://leetcode-cn.com/problems/friend-circles/)   | [FindCircleNum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_547_findCircleNum_2.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)、[并查集](https://leetcode-cn.com/tag/union-find/) | Medium |                                                              |
 | #563  | [二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/) | [FindTilt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_563_findTilt.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #567  | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [CheckInclusion](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_567_checkInclusion.java) | [双指针](<https://leetcode-cn.com/tag/two-pointers/>)        | Medium |                                                              |
