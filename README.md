@@ -15,19 +15,17 @@
 
 扫题：热题 Hot 100
 
-- [x] [437. 路径总和 III -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_437_pathSum.java)
+- [ ] [560. 和为K的子数组-Medium ](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
 
-- [x] [438. 找到字符串中所有字母异位词 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_438_findAnagrams.java)
+- [ ]  [581. 最短无序连续子数组 ——Easy](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
 
-- [x] [448. 找到所有数组中消失的数字 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_448_findDisappearedNumbers.java)
+- [ ]  [617. 合并二叉树 -Easy](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 
-- [x] [461. 汉明距离 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java)
+- [ ]  [621. 任务调度器 -Medium](https://leetcode-cn.com/problems/task-scheduler/)
 
-- [x] [494. 目标和 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_494_findTargetSumWays.java)
+- [ ]  [647. 回文子串 -Medium](https://leetcode-cn.com/problems/palindromic-substrings/)
 
-- [x] [538. 把二叉搜索树转换为累加树 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_538_convertBST.java)
-
-- [x] [543. 二叉树的直径 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_543_diameterOfBinaryTree.java)
+- [ ]  [739. 每日温度 -Medium](https://leetcode-cn.com/problems/daily-temperatures/)
 
 ## 已解题目
 
