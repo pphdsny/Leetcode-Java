@@ -1,8 +1,4 @@
 # LeetCode-Java
-寻扣友，欢迎扫码入群！！
-
-![mmqrcode1568947296986](./images/wxg.png)
-
 ## 说明
 - leetcode练习，坚持每天一道，目前已完成214道
 - 解题语言是Java
@@ -276,6 +272,8 @@
 | #1053 | [交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/) | [PrevPermOpt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1053_prevPermOpt1.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #1054 | [距离相等的条形码](https://leetcode-cn.com/problems/distant-barcodes/) | [RearrangeBarcodes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1054_rearrangeBarcodes.java) | [堆](https://leetcode-cn.com/tag/heap/)、[排序](https://leetcode-cn.com/tag/sort/) | Medium |                                                              |
 
+寻扣友，欢迎扫码入群！！
 
+![mmqrcode1568947296986](./images/wxg.png)
 
 
