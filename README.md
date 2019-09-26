@@ -1,12 +1,12 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成215道
+- leetcode练习，坚持每天一道，目前已完成216道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
 - 每道题会尽量分析一下解题步骤和复杂度
 - 欢迎star、fork、交流，一起互勉
-- 微信号：pp_hdsny（备注leetcode）
+- 微信号：pp_hdsny（寻扣友，备注leetcode）
 - 网址：https://leetcode-cn.com/
 ## 待解题目列表
 
@@ -20,7 +20,7 @@
 
 - [x]  [621. 任务调度器 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_621_leastInterval.java)
 
-- [ ]  [647. 回文子串 -Medium](https://leetcode-cn.com/problems/palindromic-substrings/)
+- [x]  [647. 回文子串 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_647_countSubstrings.java)
 
 - [ ]  [739. 每日温度 -Medium](https://leetcode-cn.com/problems/daily-temperatures/)
 
@@ -57,9 +57,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成215）
+### 题目列表（更新中—已完成216）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_621_leastInterval.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_647_countSubstrings.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -259,6 +259,7 @@
 | #617  | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [MergeTrees](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_617_mergeTrees.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #621  | [任务调度器](https://leetcode-cn.com/problems/task-scheduler/) | [LeastInterval](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_621_leastInterval.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[队列](<https://leetcode-cn.com/tag/queue/>)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #639  | [解码方法 2](https://leetcode-cn.com/problems/decode-ways-ii/) | [NumDecodings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_639_numDecodings.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
+| #647  | [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [CountSubstrings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_647_countSubstrings.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #653  | [两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [FindTarget](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_653_findTarget.java) | [树](https://leetcode-cn.com/tag/tree/)                      | Easy   |                                                              |
 | #674  | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [FindLengthOfLCIS](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_674_findLengthOfLCIS_e.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
 | #695  | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [MaxAreaOfIsland](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_695_maxAreaOfIsland.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
@@ -272,9 +273,5 @@
 | #1052 | [爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | [MaxSatisfied](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1052_maxSatisfied.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 | #1053 | [交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/) | [PrevPermOpt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1053_prevPermOpt1.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #1054 | [距离相等的条形码](https://leetcode-cn.com/problems/distant-barcodes/) | [RearrangeBarcodes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1054_rearrangeBarcodes.java) | [堆](https://leetcode-cn.com/tag/heap/)、[排序](https://leetcode-cn.com/tag/sort/) | Medium |                                                              |
-
-寻扣友，欢迎扫码入群！！
-
-![mmqrcode1568947296986](./images/wxg.png)
 
 

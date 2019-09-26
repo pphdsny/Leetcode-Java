@@ -54,6 +54,8 @@ public class _647_countSubstrings {
      * <p>
      * 解法二：{@link _647_countSubstrings#countSubstrings2(String)}
      *
+     * 解法三：{@link _647_countSubstrings#countSubstrings3(String)}
+     *
      * @param s
      * @return
      */
