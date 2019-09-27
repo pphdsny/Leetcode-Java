@@ -10,19 +10,17 @@
 - 网址：https://leetcode-cn.com/
 ## 待解题目列表
 
-扫题：热题 Hot 100
+扫题：力扣杯
 
-- [x] [560. 和为K的子数组-Medium ](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_560_subarraySum.java)
+- [ ]  [LCP 2. 分式化简 -Easy](https://leetcode-cn.com/problems/deep-dark-fraction/)
 
-- [x]  [581. 最短无序连续子数组 ——Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_581_findUnsortedSubarray.java)
+- [ ]  [LCP 4. 覆盖 -Hard](https://leetcode-cn.com/problems/broken-board-dominoes/)
 
-- [x]  [617. 合并二叉树 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_617_mergeTrees.java)
+- [ ]  [LCP 5. 发 LeetCoin -Hard](https://leetcode-cn.com/problems/coin-bonus/)
 
-- [x]  [621. 任务调度器 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_621_leastInterval.java)
+- [ ]  [LCP 3. 机器人大冒险 -Medium](https://leetcode-cn.com/problems/programmable-robot/)
 
-- [x]  [647. 回文子串 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_647_countSubstrings.java)
-
-- [x]  [739. 每日温度 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_739_dailyTemperatures.java)
+- [ ]  [LCP 1. 猜数字 -Easy](https://leetcode-cn.com/problems/guess-numbers/)
 
 ## 已解题目
 
