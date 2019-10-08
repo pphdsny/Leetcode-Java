@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成217道
+- leetcode练习，坚持每天一道，目前已完成218道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,7 +12,7 @@
 
 扫题：力扣杯
 
-- [ ]  [LCP 2. 分式化简 -Easy](https://leetcode-cn.com/problems/deep-dark-fraction/)
+- [x]  [LCP 2. 分式化简 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java)
 
 - [ ]  [LCP 4. 覆盖 -Hard](https://leetcode-cn.com/problems/broken-board-dominoes/)
 
@@ -55,11 +55,11 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成217）
+### 题目列表（更新中—已完成218）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_739_dailyTemperatures.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java)
 
-| No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | remark                                                       |
+| No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
 | #1    | [两数之和](https://leetcode-cn.com/problems/two-sum)         | [TwoSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1_twoSum.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>) | Easy   |                                                              |
 | #2    | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [AddTwoNumbers](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_2_addTwoNumbers.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[数学](<https://leetcode-cn.com/tag/math/>) | Easy   |                                                              |
@@ -273,4 +273,9 @@
 | #1053 | [交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/) | [PrevPermOpt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1053_prevPermOpt1.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #1054 | [距离相等的条形码](https://leetcode-cn.com/problems/distant-barcodes/) | [RearrangeBarcodes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1054_rearrangeBarcodes.java) | [堆](https://leetcode-cn.com/tag/heap/)、[排序](https://leetcode-cn.com/tag/sort/) | Medium |                                                              |
 
+LCP
+
+| No   | 题目                                                         | 解决方案                                                     | 难度 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| #2   | [LCP 2. 分式化简](https://leetcode-cn.com/problems/deep-dark-fraction/) | [Fraction](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java) | Easy |
 
