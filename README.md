@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成218道
+- leetcode练习，坚持每天一道，目前已完成219道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -20,7 +20,7 @@
 
 - [ ]  [LCP 3. 机器人大冒险 -Medium](https://leetcode-cn.com/problems/programmable-robot/)
 
-- [ ]  [LCP 1. 猜数字 -Easy](https://leetcode-cn.com/problems/guess-numbers/)
+- [x]  [LCP 1. 猜数字 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java)
 
 ## 已解题目
 
@@ -55,9 +55,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成218）
+### 题目列表（更新中—已完成219）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -277,5 +277,6 @@ LCP
 
 | No   | 题目                                                         | 解决方案                                                     | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| #1   | [LCP 1. 猜数字](https://leetcode-cn.com/problems/guess-numbers/) | [Game](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java) | Easy |
 | #2   | [LCP 2. 分式化简](https://leetcode-cn.com/problems/deep-dark-fraction/) | [Fraction](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java) | Easy |
 
