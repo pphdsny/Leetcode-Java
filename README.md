@@ -10,17 +10,21 @@
 - 网址：https://leetcode-cn.com/
 ## 待解题目列表
 
-扫题：力扣杯
+扫题：顺序
 
-- [x]  [LCP 2. 分式化简 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java)
+- [ ]  [65. 有效数字 -Hard](https://leetcode-cn.com/problems/valid-number/)
 
-- [x]  [LCP 4. 覆盖 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_4_domino.java)
+- [ ]  [66. 加一 -Easy](https://leetcode-cn.com/problems/plus-one/)
 
-- [x]  [LCP 5. 发 LeetCoin -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_5_bonus_2.java)
+- [ ]  [68. 文本左右对齐 -Hard](https://leetcode-cn.com/problems/text-justification/)
 
-- [x]  [LCP 3. 机器人大冒险 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_3_robot.java)
+- [ ]  [73. 矩阵置零 -Medium](https://leetcode-cn.com/problems/set-matrix-zeroes/)
 
-- [x]  [LCP 1. 猜数字 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java)
+- [ ]  [74. 搜索二维矩阵 -Medium](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+
+- [ ]  [81. 搜索旋转排序数组 II -Medium](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+
+- [ ]  [82. 删除排序链表中的重复元素 II -Medium](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 ## 已解题目
 
