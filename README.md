@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成224道
+- leetcode练习，坚持每天一道，目前已完成225道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,19 +12,14 @@
 
 扫题：顺序
 
-- [x]  [65. 有效数字 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_65_isNumber.java)
-
-- [x]  [66. 加一 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_66_plusOne.java)
-
-- [ ]  [68. 文本左右对齐 -Hard](https://leetcode-cn.com/problems/text-justification/)
-
-- [ ]  [73. 矩阵置零 -Medium](https://leetcode-cn.com/problems/set-matrix-zeroes/)
-
-- [ ]  [74. 搜索二维矩阵 -Medium](https://leetcode-cn.com/problems/search-a-2d-matrix/)
-
-- [ ]  [81. 搜索旋转排序数组 II -Medium](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
-
-- [ ]  [82. 删除排序链表中的重复元素 II -Medium](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+- [x] [65. 有效数字 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_65_isNumber.java)
+- [x] [66. 加一 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_66_plusOne.java)
+- [x] [67. 二进制求和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_67_addBinary.java)
+- [ ] [68. 文本左右对齐 -Hard](https://leetcode-cn.com/problems/text-justification/)
+- [ ] [73. 矩阵置零 -Medium](https://leetcode-cn.com/problems/set-matrix-zeroes/)
+- [ ] [74. 搜索二维矩阵 -Medium](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [ ] [81. 搜索旋转排序数组 II -Medium](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+- [ ] [82. 删除排序链表中的重复元素 II -Medium](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 ## 已解题目
 
@@ -59,9 +54,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成224）
+### 题目列表（更新中—已完成225）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_66_plusOne.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_67_addBinary.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -131,6 +126,7 @@
 | #64   | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [MinPathSum](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_64_minPathSum.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #65   | [有效数字](https://leetcode-cn.com/problems/valid-number/)   | [IsNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_65_isNumber.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Hard   |                                                              |
 | #66   | [加一](https://leetcode-cn.com/problems/plus-one/)           | [PlusOne](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_66_plusOne.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
+| #67   | [二进制求和](https://leetcode-cn.com/problems/add-binary/)   | [AddBinary](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_67_addBinary.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[字符串](<https://leetcode-cn.com/tag/string/>) | Easy   |                                                              |
 | #69   | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/)        | [MySqrt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_69_mySqrt.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Easy   |                                                              |
 | #70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [ClimbStairs](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_70_climbStairs.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   | 经典题                                                       |
 | #71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)  | [SimplifyPath](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_71_simplifyPath.java) | [栈](https://leetcode-cn.com/tag/stack/)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
