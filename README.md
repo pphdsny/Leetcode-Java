@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成226道
+- leetcode练习，坚持每天一道，目前已完成227道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -16,7 +16,7 @@
 - [x] [66. 加一 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_66_plusOne.java)
 - [x] [67. 二进制求和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_67_addBinary.java)
 - [x] [68. 文本左右对齐 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_68_fullJustify.java)
-- [ ] [73. 矩阵置零 -Medium](https://leetcode-cn.com/problems/set-matrix-zeroes/)
+- [x] [73. 矩阵置零 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_73_setZeroes.java)
 - [ ] [74. 搜索二维矩阵 -Medium](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 - [ ] [81. 搜索旋转排序数组 II -Medium](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 - [ ] [82. 删除排序链表中的重复元素 II -Medium](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
@@ -54,9 +54,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成226）
+### 题目列表（更新中—已完成227）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_68_fullJustify.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_73_setZeroes.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -132,6 +132,7 @@
 | #70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [ClimbStairs](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_70_climbStairs.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   | 经典题                                                       |
 | #71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)  | [SimplifyPath](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_71_simplifyPath.java) | [栈](https://leetcode-cn.com/tag/stack/)、[字符串](<https://leetcode-cn.com/tag/string/>) | Medium |                                                              |
 | #72   | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)  | [MinDistance](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_72_minDistance.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
+| #73   | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [SetZeroes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_73_setZeroes.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Medium |                                                              |
 | #75   | [颜色分类](https://leetcode-cn.com/problems/sort-colors/)    | [SortColors](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_75_sortColors.java) | [排序](https://leetcode-cn.com/tag/sort/)、[数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #76   | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | [MinWindow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_76_minWindow.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>)、[字符串](<https://leetcode-cn.com/tag/string/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Hard   |                                                              |
 | #77   | [组合](https://leetcode-cn.com/problems/combinations/)       | [Combine](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_77_combine.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Medium |                                                              |
