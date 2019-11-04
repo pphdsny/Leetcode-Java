@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成229道
+- leetcode练习，坚持每天一道，目前已完成231道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,20 +12,25 @@
 
 扫题：顺序
 
-- [x] [65. 有效数字 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_65_isNumber.java)
-- [x] [66. 加一 -Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_66_plusOne.java)
-- [x] [67. 二进制求和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_67_addBinary.java)
-- [x] [68. 文本左右对齐 -Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_68_fullJustify.java)
-- [x] [73. 矩阵置零 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_73_setZeroes.java)
-- [x] [74. 搜索二维矩阵 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_74_searchMatrix.java)
-- [x] [81. 搜索旋转排序数组 II -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_81_search.java)
-- [ ] [82. 删除排序链表中的重复元素 II -Medium](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+- [x] [83. 删除排序链表中的重复元素](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_83_deleteDuplicates.java)
+
+- [ ]  [87. 扰乱字符串](https://leetcode-cn.com/problems/scramble-string/)
+
+- [ ]  [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+
+- [ ]  [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)
+
+- [ ]  [97. 交错字符串](https://leetcode-cn.com/problems/interleaving-string/)
+
+- [ ]  [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
+
+- [ ]  [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
 
 ## 已解题目
 
 > 20190404# leetcode目前已有题目1020道，免费852道
 
-### 题目类型（更新中）
+### 题目类型（更新中...）
 
 - [数组](<https://leetcode-cn.com/tag/array/>)（168）
 - [哈希表](<https://leetcode-cn.com/tag/hash-table/>)（102）
@@ -54,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成229）
+### 题目列表（更新中—已完成231）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_81_search.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_83_deleteDuplicates.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -141,6 +146,8 @@
 | #79   | [单词搜索](https://leetcode-cn.com/problems/word-search/)    | [Exist](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_79_exist.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium | 经典题（回溯）                                               |
 | #80   | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [RemoveDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_80_removeDuplicates.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #81   | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Search](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_81_search.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[二分查找](<https://leetcode-cn.com/tag/binary-search/>) | Medium |                                                              |
+| #82   | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | [DeleteDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_82_deleteDuplicates.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Medium |                                                              |
+| #83   | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [DeleteDuplicates](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_83_deleteDuplicates.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |                                                              |
 | #84   | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [LargestRectangleArea](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_84_largestRectangleArea.java) | [栈](https://leetcode-cn.com/tag/stack/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   | 经典题（栈、分治）                                           |
 | #85   | [最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | [MaximalRectangle](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_85_maximalRectangle.java) | [栈](https://leetcode-cn.com/tag/stack/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #86   | [分隔链表](https://leetcode-cn.com/problems/partition-list/) | [Partition](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_86_Partition.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
