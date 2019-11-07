@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成232道
+- leetcode练习，坚持每天一道，目前已完成233道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -16,7 +16,7 @@
 
 - [x]  [87. 扰乱字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_87_isScramble.java)
 
-- [ ]  [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [x]  [88. 合并两个有序数组](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_88_merge.java)
 
 - [ ]  [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)
 
@@ -59,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成232）
+### 题目列表（更新中—已完成233）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_87_isScramble.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_88_merge.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -152,6 +152,7 @@
 | #85   | [最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | [MaximalRectangle](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_85_maximalRectangle.java) | [栈](https://leetcode-cn.com/tag/stack/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
 | #86   | [分隔链表](https://leetcode-cn.com/problems/partition-list/) | [Partition](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_86_Partition.java) | [链表](https://leetcode-cn.com/tag/linked-list/)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Medium |                                                              |
 | #87   | [扰乱字符串](https://leetcode-cn.com/problems/scramble-string/) | [IsScramble](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_87_isScramble.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
+| #88   | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Merge](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_88_merge.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy   |                                                              |
 | #90   | [子集 II](https://leetcode-cn.com/problems/subsets-ii/)      | [SubsetsWithDup](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_90_subsetsWithDup.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #91   | [解码方法](https://leetcode-cn.com/problems/decode-ways/)    | [NumDecodings](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_91_numDecodings.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | [ReverseBetween](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_92_ReverseBetween.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Medium |                                                              |
