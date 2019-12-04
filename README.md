@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成236道
+- leetcode练习，坚持每天一道，目前已完成237道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -14,17 +14,19 @@
 
 - [x] [83. 删除排序链表中的重复元素](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_83_deleteDuplicates.java)
 
-- [x]  [87. 扰乱字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_87_isScramble.java)
+- [x] [87. 扰乱字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_87_isScramble.java)
 
-- [x]  [88. 合并两个有序数组](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_88_merge.java)
+- [x] [88. 合并两个有序数组](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_88_merge.java)
 
-- [x]  [89. 格雷编码](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_89_grayCode.java)
+- [x] [89. 格雷编码](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_89_grayCode.java)
 
-- [x]  [97. 交错字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_97_isInterleave.java)
+- [ ]  [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
-- [x]  [99. 恢复二叉搜索树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_99_recoverTree.java)
+- [x] [97. 交错字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_97_isInterleave.java)
 
-- [ ]  [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
+- [x] [99. 恢复二叉搜索树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_99_recoverTree.java)
+
+- [x]  [100. 相同的树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_100_isSameTree.java)
 
 ## 已解题目
 
@@ -59,9 +61,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成236）
+### 题目列表（更新中—已完成237）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_99_recoverTree.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_100_isSameTree.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -163,6 +165,7 @@
 | #97   | [交错字符串](https://leetcode-cn.com/problems/interleaving-string/) | [IsInterleave](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_97_isInterleave.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #98   | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [IsValidBST](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_98_isValidBST.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #99   | [恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | [RecoverTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_99_recoverTree.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Hard   |                                                              |
+| #100  | [相同的树](https://leetcode-cn.com/problems/same-tree/)      | [IsSameTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_100_isSameTree.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Easy   |                                                              |
 | #101  | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [IsSymmetric](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_101_isSymmetric.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/)、[BFS](https://leetcode-cn.com/tag/breadth-first-search/) | Easy   |                                                              |
 | #102  | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [LevelOrder](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_102_levelOrder.java) | [树](https://leetcode-cn.com/tag/tree/)、[BFS](https://leetcode-cn.com/tag/breadth-first-search/) | Medium |                                                              |
 | #103  | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [ZigzagLevelOrder](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_103_zigzagLevelOrder.java) | [栈](https://leetcode-cn.com/tag/stack/)、[树](https://leetcode-cn.com/tag/tree/)、[BFS](https://leetcode-cn.com/tag/breadth-first-search/) | Medium |                                                              |
