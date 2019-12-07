@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成237道
+- leetcode练习，坚持每天一道，目前已完成238道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -20,7 +20,7 @@
 
 - [x] [89. 格雷编码](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_89_grayCode.java)
 
-- [ ]  [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
+- [x]  [96. 不同的二叉搜索树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_96_numTrees.java)
 
 - [x] [97. 交错字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_97_isInterleave.java)
 
@@ -61,9 +61,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成237）
+### 题目列表（更新中—已完成238）
 
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_100_isSameTree.java)
+[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_96_numTrees.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -162,6 +162,7 @@
 | #93   | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/) | [RestoreIpAddresses](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_93_restoreIpAddresses.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Medium |                                                              |
 | #94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [InorderTraversal](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_94_inorderTraversal.java) | [栈](https://leetcode-cn.com/tag/stack/)、[树](https://leetcode-cn.com/tag/tree/)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>) | Medium |                                                              |
 | #95   | [不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) | [GenerateTrees](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_95_generateTrees.java) | [树](https://leetcode-cn.com/tag/tree/)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium | DP实现未想到                                                 |
+| #96   | [不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [NumTrees](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_96_numTrees.java) | [树](https://leetcode-cn.com/tag/tree/)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #97   | [交错字符串](https://leetcode-cn.com/problems/interleaving-string/) | [IsInterleave](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_97_isInterleave.java) | [字符串](<https://leetcode-cn.com/tag/string/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #98   | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [IsValidBST](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_98_isValidBST.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #99   | [恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | [RecoverTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_99_recoverTree.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Hard   |                                                              |
