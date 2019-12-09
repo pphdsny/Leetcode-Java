@@ -46,6 +46,11 @@ public class _106_buildTree {
      * 3、分别取中序和后续的0-I位置，得到的就是左子树的中序和后续遍历接通，重复步骤1、2将左子树构造出来
      * 4、同理步骤3，将右子树构造出来
      *
+     * 执行用时 :19 ms, 在所有 java 提交中击败了29.64%的用户
+     * 内存消耗 :77.3 MB, 在所有 java 提交中击败了5.17%的用户
+     *
+     * 用时耗时优化建议：Arrays.copy可以转换为数组的index下标遍历
+     *
      * @param inorder
      * @param postorder
      * @return
