@@ -12,21 +12,19 @@
 
 扫题：顺序
 
-- [x] [83. 删除排序链表中的重复元素](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_83_deleteDuplicates.java)
+- [ ]  [106. 从中序与后序遍历序列构造二叉树 -Medium](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
-- [x] [87. 扰乱字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_87_isScramble.java)
+- [ ]  [107. 二叉树的层次遍历 II --Easy](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 
-- [x] [88. 合并两个有序数组](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_88_merge.java)
+- [ ]  [109. 有序链表转换二叉搜索树 --Medium](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
 
-- [x] [89. 格雷编码](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_89_grayCode.java)
+- [ ]  [112. 路径总和 --Easy](https://leetcode-cn.com/problems/path-sum/)
 
-- [x]  [96. 不同的二叉搜索树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_96_numTrees.java)
+- [ ]  [115. 不同的子序列 --Hard](https://leetcode-cn.com/problems/distinct-subsequences/)
 
-- [x] [97. 交错字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_97_isInterleave.java)
+- [ ]  [116. 填充每个节点的下一个右侧节点指针 --Medium](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
 
-- [x] [99. 恢复二叉搜索树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_99_recoverTree.java)
-
-- [x]  [100. 相同的树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_100_isSameTree.java)
+- [ ]  [117. 填充每个节点的下一个右侧节点指针 II --Medium](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)
 
 ## 已解题目
 
