@@ -4,7 +4,9 @@ import pp.arithmetic.leetcode._206_ReverseList;
 import pp.arithmetic.model.ListNode;
 import pp.arithmetic.model.TreeNode;
 
+import java.util.ArrayDeque;
 import java.util.List;
+import java.util.Queue;
 import java.util.Random;
 
 /**
@@ -99,6 +101,35 @@ public class Util {
         node3.right = node7;
         node5.left = node8;
         node5.right = node9;
+        return root;
+    }
+
+    public static TreeNode generateTreeNode(Integer[] nodes) {
+        if (nodes == null || nodes.length == 0 || nodes[0] == null) return null;
+        TreeNode root = new TreeNode(nodes[0]);
+        Queue<TreeNode> stack = new ArrayDeque<>();
+        stack.add(root);
+        int length = 1;
+        while (length < nodes.length) {
+            TreeNode poll = stack.poll();
+            if (poll == null) break;
+            Integer node = nodes[length];
+            if (node!=null) {
+                TreeNode left = new TreeNode(node);
+                poll.left = left;
+                stack.add(left);
+            }
+            length++;
+            if (length < nodes.length) {
+                node=nodes[length];
+                if (node!=null) {
+                    TreeNode right = new TreeNode(node);
+                    poll.right = right;
+                    stack.add(right);
+                }
+                length++;
+            }
+        }
         return root;
     }
 
