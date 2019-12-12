@@ -18,7 +18,7 @@
 
 - [x]  [109. 有序链表转换二叉搜索树 --Medium]([_109_sortedListToBST.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_109_sortedListToBST.java))
 
-- [ ]   [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+- [x]   [110. 平衡二叉树 --Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_110_isBalanced.java)
 
 - [ ]   [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 
@@ -65,7 +65,7 @@
 
 ### 题目列表（更新中—已完成241）
 
-[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)]([_109_sortedListToBST.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_109_sortedListToBST.java))
+[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_110_isBalanced.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
