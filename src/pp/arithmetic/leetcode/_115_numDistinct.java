@@ -79,7 +79,7 @@ public class _115_numDistinct {
      * "bcddceeeebecbc"
      * 本地跑出结果：700531452
      *
-     * 优化思考：是不是可以考虑将遍历过程中的一些结果保存起来，而不是每次凑重新计算==>动态规划
+     * 优化思考：是不是可以考虑将遍历过程中的一些结果保存起来，而不是每次凑重新计算==>动态规划{@link _115_numDistinct#numDistinct2(String, String)}
      *
      * @param s
      * @param t
@@ -117,6 +117,9 @@ public class _115_numDistinct {
      * dp[t.length() + 1][s.length() + 1] : dp[i][j]代表t[0-i]在s[0-j]中的出现的次数
      * 如果某一位t[i]==s[j]，则此时的次数=dp[i-1][j-1]+dp[i][j-1]
      * 如果某一位t[i]!=s[j]，则此时的次数=dp[i][j-1]
+     *
+     * 执行用时 :7 ms, 在所有 java 提交中击败了79.83%的用户
+     * 内存消耗 :35.8 MB, 在所有 java 提交中击败了85.40%的用户
      *
      * @param s
      * @param t
