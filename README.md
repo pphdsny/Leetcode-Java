@@ -12,23 +12,19 @@
 
 扫题：顺序
 
-- [x]  [106. 从中序与后序遍历序列构造二叉树 -Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_106_buildTree.java)
+- [ ]   [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
 
-- [x]  [107. 二叉树的层次遍历 II --Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_107_levelOrderBottom.java)
+- [ ]  [119. 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
 
-- [x]  [109. 有序链表转换二叉搜索树 --Medium]([_109_sortedListToBST.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_109_sortedListToBST.java))
+- [ ]  [129. 求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 
-- [x]   [110. 平衡二叉树 --Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_110_isBalanced.java)
+- [ ]  [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
 
-- [x]   [111. 二叉树的最小深度 --Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_111_minDepth.java)
+- [ ]  [131. 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)
 
-- [x]  [112. 路径总和 --Easy](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_112_hasPathSum.java)
+- [ ]  [132. 分割回文串 II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)
 
-- [x]  [115. 不同的子序列 --Hard](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_115_numDistinct.java)
-
-- [x]  [116. 填充每个节点的下一个右侧节点指针 --Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_116_connect.java)
-
-- [x]  [117. 填充每个节点的下一个右侧节点指针 II --Medium](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_117_connect.java)
+- [ ]  [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)
 
 ## 已解题目
 
