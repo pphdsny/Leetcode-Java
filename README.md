@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成246道
+- leetcode练习，坚持每天一道，目前已完成247道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -14,7 +14,7 @@
 
 - [x]   [118. 杨辉三角](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_118_generate.java)
 
-- [ ]  [119. 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+- [x]  [119. 杨辉三角 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java)
 
 - [ ]  [129. 求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 
@@ -59,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成246）
+### 题目列表（更新中—已完成247）
 
-[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_118_generate.java)
+[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -183,6 +183,7 @@
 | #116  | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [Connect](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_116_connect.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #117  | [填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Connect](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_117_connect.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #118  | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Generate](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_118_generate.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
+| #119  | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [GetRow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java) | [数组](<https://leetcode-cn.com/tag/array/>)                 | Easy   |                                                              |
 | #120  | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | [MinimumTotal](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_120_minimumTotal.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |                                                              |
 | #121  | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [MaxProfit](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_121_maxProfit.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Easy   |                                                              |
 | #122  | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [MaxProfit](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_122_maxProfit.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Easy   |                                                              |
