@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成247道
+- leetcode练习，坚持每天一道，目前已完成248道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -16,7 +16,7 @@
 
 - [x]  [119. 杨辉三角 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java)
 
-- [ ]  [129. 求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
+- [x]  [129. 求根到叶子节点数字之和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_129_sumNumbers.java)
 
 - [ ]  [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
 
@@ -59,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成247）
+### 题目列表（更新中—已完成248）
 
-[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java)
+[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_129_sumNumbers.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -193,6 +193,7 @@
 | #126  | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/) | [FindLadders](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_126_findLadders.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[数组](<https://leetcode-cn.com/tag/array/>)、[字符串](<https://leetcode-cn.com/tag/string/>)、[回溯算法](<https://leetcode-cn.com/tag/backtracking/>) | Hard   |                                                              |
 | #127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [LadderLength](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_127_ladderLength_2.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)     | Medium | [自己原始解法](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_127_ladderLength.java) |
 | #128  | [最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [LongestConsecutive](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_128_longestConsecutive.java) | [并查集](https://leetcode-cn.com/tag/union-find/)、[数组](<https://leetcode-cn.com/tag/array/>) | Hard   |                                                              |
+| #129  | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | [SumNumbers](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_129_sumNumbers.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #136  | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [SingleNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[位运算](https://leetcode-cn.com/tag/bit-manipulation/) | Easy   | 位运算了解下                                                 |
 | #138  | [复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [CopyRandomList](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_138_CopyRandomList.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[链表](https://leetcode-cn.com/tag/linked-list/) | Medium |                                                              |
 | #139  | [单词拆分](https://leetcode-cn.com/problems/word-break/)     | [WordBreak](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_139_wordBreak.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium | 回溯实现耗时                                                 |
