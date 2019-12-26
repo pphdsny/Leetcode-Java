@@ -147,6 +147,17 @@ public class Util {
         System.out.println();
     }
 
+    public static <T> void printLists(List<List<T>> lists) {
+        for (int i = 0; i < lists.size(); i++) {
+            System.out.print("[ ");
+            for (int j = 0; j < lists.get(i).size(); j++) {
+                System.out.print(lists.get(i).get(j) + " ");
+            }
+            System.out.print("]");
+            System.out.println();
+        }
+    }
+
     public static void printStringList(List<String> nums) {
         if (nums == null){
             System.out.println("list is null");
