@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成250道
+- leetcode练习，坚持每天一道，目前已完成251道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -22,7 +22,7 @@
 
 - [x]  [131. 分割回文串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_131_partition.java)
 
-- [ ]  [132. 分割回文串 II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)
+- [x]  [132. 分割回文串 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_132_minCut.java)
 
 - [ ]  [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)
 
@@ -59,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成250）
+### 题目列表（更新中—已完成251）
 
-[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_131_partition.java)
+[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_132_minCut.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -196,6 +196,7 @@
 | #129  | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | [SumNumbers](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_129_sumNumbers.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |                                                              |
 | #130  | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [Solve](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_130_solve.java) | [BFS](https://leetcode-cn.com/tag/breadth-first-search/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/)、[并查集](https://leetcode-cn.com/tag/union-find/) | Medium |                                                              |
 | #131  | [分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | [Partition](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_131_partition.java) | [回溯算法](<https://leetcode-cn.com/tag/backtracking/>)      | Medium |                                                              |
+| #132  | [分割回文串 II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/) | [MinCut](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_132_minCut.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Hard   |                                                              |
 | #136  | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [SingleNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[位运算](https://leetcode-cn.com/tag/bit-manipulation/) | Easy   | 位运算了解下                                                 |
 | #138  | [复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [CopyRandomList](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_138_CopyRandomList.java) | [哈希表](<https://leetcode-cn.com/tag/hash-table/>)、[链表](https://leetcode-cn.com/tag/linked-list/) | Medium |                                                              |
 | #139  | [单词拆分](https://leetcode-cn.com/problems/word-break/)     | [WordBreak](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_139_wordBreak.java) | [动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium | 回溯实现耗时                                                 |
