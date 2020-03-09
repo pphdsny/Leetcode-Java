@@ -10,21 +10,19 @@
 - 网址：https://leetcode-cn.com/
 ## 待解题目列表
 
-2020春节放假停更，祝大家越码越溜~
+2020疫情，安全复工~ ~多线程专题
 
-- [x]   [118. 杨辉三角](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_118_generate.java)
+- [ ]  [1114. 按序打印](https://leetcode-cn.com/problems/print-in-order/)
 
-- [x]  [119. 杨辉三角 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java)
+- [ ]  [1115. 交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately/)
 
-- [x]  [129. 求根到叶子节点数字之和](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_129_sumNumbers.java)
+- [ ]  [1116. 打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd/)
 
-- [x]  [130. 被围绕的区域](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_130_solve.java)
+- [ ]  [1117. H2O 生成](https://leetcode-cn.com/problems/building-h2o/)
 
-- [x]  [131. 分割回文串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_131_partition.java)
+- [ ]  [1195. 交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)
 
-- [x]  [132. 分割回文串 II](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_132_minCut.java)
-
-- [x]  [133. 克隆图](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_133_cloneGraph.java)
+- [ ]  [1226. 哲学家进餐](https://leetcode-cn.com/problems/the-dining-philosophers/)
 
 ## 已解题目
 
