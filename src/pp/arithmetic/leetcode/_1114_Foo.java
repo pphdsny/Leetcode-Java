@@ -81,6 +81,7 @@ public class _1114_Foo {
 
     }
 
+    //一道题自己没有跑成功，不知道测试用例如何输出的
     static class Foo {
 
         private AtomicInteger firstJobDone = new AtomicInteger(0);

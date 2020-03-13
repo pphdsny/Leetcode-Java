@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成252道
+- leetcode练习，坚持每天一道，目前已完成253道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,7 +12,7 @@
 
 2020疫情，安全复工~ ~多线程专题
 
-- [ ]  [1114. 按序打印](https://leetcode-cn.com/problems/print-in-order/)
+- [x]  [1114. 按序打印](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1114_Foo.java)
 
 - [ ]  [1115. 交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately/)
 
@@ -57,9 +57,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成251）
+### 题目列表（更新中—已完成253）
 
-[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_133_cloneGraph.java)
+[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1114_Foo.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -306,6 +306,7 @@
 | #1052 | [爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | [MaxSatisfied](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1052_maxSatisfied.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[sliding window](<https://leetcode-cn.com/tag/sliding-window/>) | Medium |                                                              |
 | #1053 | [交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/) | [PrevPermOpt](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1053_prevPermOpt1.java) | [贪心算法](https://leetcode-cn.com/tag/greedy/)、[数组](<https://leetcode-cn.com/tag/array/>) | Medium |                                                              |
 | #1054 | [距离相等的条形码](https://leetcode-cn.com/problems/distant-barcodes/) | [RearrangeBarcodes](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1054_rearrangeBarcodes.java) | [堆](https://leetcode-cn.com/tag/heap/)、[排序](https://leetcode-cn.com/tag/sort/) | Medium |                                                              |
+| #1114 | [按序打印](https://leetcode-cn.com/problems/print-in-order/) | [Foo](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1114_Foo.java) |                                                              | Easy   |                                                              |
 
 LCP
 
