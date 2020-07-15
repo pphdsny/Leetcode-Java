@@ -18,7 +18,7 @@
 
 - [x]  [1116. 打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd/)
 
-- [ ]  [1117. H2O 生成](https://leetcode-cn.com/problems/building-h2o/)
+- [x]  [1117. H2O 生成](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1116_ZeroEvenOdd.java)
 
 - [ ]  [1195. 交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)
 
@@ -57,7 +57,7 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成255）
+### 题目列表（更新中—已完成256）
 
 [Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1116_ZeroEvenOdd.java)
 
@@ -309,6 +309,7 @@
 | #1114 | [按序打印](https://leetcode-cn.com/problems/print-in-order/) | [Foo](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1114_Foo.java) |                                                              | Easy   |                                                              |
 | #1115 | [交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately/) | [FooBar]([Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1115_FooBar.java)) |                                                              | Medium |                                                              |
 | #1116 | [打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd/) | [ZeroEvenOdd](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1116_ZeroEvenOdd.java) |                                                              | Medium |                                                              |
+| #1117 | [H2O 生成](https://leetcode-cn.com/problems/building-h2o/)   | [H2O](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1117_H2O.java) |                                                              | Medium |                                                              |
 
 LCP
 

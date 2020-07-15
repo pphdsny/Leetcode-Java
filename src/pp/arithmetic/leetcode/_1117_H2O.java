@@ -95,6 +95,7 @@ public class _1117_H2O {
         }
     }
 
+    //使用系统类进行优化
     class H2O2 {
 
         private Semaphore hs;
