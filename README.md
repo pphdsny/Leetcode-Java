@@ -20,7 +20,7 @@
 
 - [x]  [1117. H2O 生成](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1116_ZeroEvenOdd.java)
 
-- [ ]  [1195. 交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)
+- [x]  [1195. 交替打印字符串](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1195_FizzBuzz.java)
 
 - [ ]  [1226. 哲学家进餐](https://leetcode-cn.com/problems/the-dining-philosophers/)
 
@@ -57,9 +57,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成256）
+### 题目列表（更新中—已完成257）
 
-[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1116_ZeroEvenOdd.java)
+[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1195_FizzBuzz.java)
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -310,6 +310,7 @@
 | #1115 | [交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately/) | [FooBar]([Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1115_FooBar.java)) |                                                              | Medium |                                                              |
 | #1116 | [打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd/) | [ZeroEvenOdd](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1116_ZeroEvenOdd.java) |                                                              | Medium |                                                              |
 | #1117 | [H2O 生成](https://leetcode-cn.com/problems/building-h2o/)   | [H2O](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1117_H2O.java) |                                                              | Medium |                                                              |
+| #1195 | [交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/) | [FizzBuzz](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1195_FizzBuzz.java) |                                                              | Medium |                                                              |
 
 LCP
 
