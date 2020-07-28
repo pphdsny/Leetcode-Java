@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成258道
+- leetcode练习，坚持每天一道，目前已完成259道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,7 +12,7 @@
 
 剑指offer系列-持续多月，每周7题
 
-- [ ] [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof)
+- [x] [数组中重复的数字](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_03_findRepeatNumber.java)
 - [ ] [二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof)
 - [ ] [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof)
 - [ ] [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
@@ -53,9 +53,19 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成258）
+### 题目列表（更新中—已完成259）
 
-[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_1226_DiningPhilosophers.java)
+[Leetcode-Java(250+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_03_findRepeatNumber.java)
+
+剑指offer系列
+
+| 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [剑指 Offer 03. 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [FindRepeatNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_03_findRepeatNumber.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>) | Easy |
+|                                                              |                                                              |                                                              |      |
+|                                                              |                                                              |                                                              |      |
+
+经典题解
 
 | No    | 题目                                                         | 解决方案                                                     | 相关话题                                                     | 难度   | 备注                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
