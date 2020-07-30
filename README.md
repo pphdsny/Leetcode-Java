@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成261道
+- leetcode练习，坚持每天一道，目前已完成262道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -15,7 +15,7 @@
 - [x] [数组中重复的数字](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_03_findRepeatNumber.java)
 - [x] [二维数组中的查找](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_04_findNumberIn2DArray.java)
 - [x] [替换空格](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_05_replaceSpace.java)
-- [ ] [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
+- [x] [从尾到头打印链表]([_06_reversePrint.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_06_reversePrint.java))
 - [ ] [重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof)
 - [ ] [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
 - [ ] [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof)
@@ -53,9 +53,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成261）
+### 题目列表（更新中—已完成262）
 
-[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_05_replaceSpace.java)
+[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)]([_06_reversePrint.java](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_06_reversePrint.java))
 
 #### 剑指offer系列
 
@@ -64,6 +64,7 @@
 | [剑指 Offer 03. 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [FindRepeatNumber](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_03_findRepeatNumber.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[哈希表](<https://leetcode-cn.com/tag/hash-table/>) | Easy |      |
 | [剑指 Offer 04. 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | [FindNumberIn2DArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_04_findNumberIn2DArray.java) | [数组](<https://leetcode-cn.com/tag/array/>)、[双指针](<https://leetcode-cn.com/tag/two-pointers/>) | Easy |      |
 | [剑指 Offer 05. 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | [ReplaceSpace](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_05_replaceSpace.java) |                                                              | Easy |      |
+| [剑指 Offer 06. 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [ReversePrint](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_06_reversePrint.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy |      |
 
 #### 经典题解
 
