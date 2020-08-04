@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成263道
+- leetcode练习，坚持每天一道，目前已完成264道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -17,7 +17,7 @@
 - [x] [替换空格](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_05_replaceSpace.java)
 - [x] [从尾到头打印链表](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_06_reversePrint.java)
 - [x] [重建二叉树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_07_buildTree.java)
-- [ ] [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
+- [x] [用两个栈实现队列](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_09_CQueue.java)
 - [ ] [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof)
 
 ## 已解题目
@@ -53,9 +53,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成263）
+### 题目列表（更新中—已完成264）
 
-[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_07_buildTree.java)
+[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_09_CQueue.java)
 
 #### 剑指offer系列
 
@@ -66,6 +66,7 @@
 | [剑指 Offer 05. 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | [ReplaceSpace](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_05_replaceSpace.java) |                                                              | Easy   |      |
 | [剑指 Offer 06. 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [ReversePrint](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_06_reversePrint.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |      |
 | [剑指 Offer 07. 重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | [BuildTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_07_buildTree.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |      |
+| [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [CQueue](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_09_CQueue.java) | [栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |      |
 
 #### 经典题解
 
