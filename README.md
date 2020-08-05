@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成265道
+- leetcode练习，坚持每天一道，目前已完成266道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,7 +12,7 @@
 
 剑指offer系列-持续多周，每周7题
 
-- [ ]  [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+- [x]  [剑指 Offer 10- II. 青蛙跳台阶问题](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_2_numWays.java)
 
 - [ ]  [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
 
@@ -59,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成265）
+### 题目列表（更新中—已完成266）
 
-[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_fib.java)
+[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_2_numWays.java)
 
 #### 剑指offer系列
 
@@ -74,6 +74,7 @@
 | [剑指 Offer 07. 重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | [BuildTree](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_07_buildTree.java) | [树](https://leetcode-cn.com/tag/tree/)、[DFS](https://leetcode-cn.com/tag/depth-first-search/) | Medium |      |
 | [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [CQueue](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_09_CQueue.java) | [栈](https://leetcode-cn.com/tag/stack/)、[设计](https://leetcode-cn.com/tag/design/) | Easy   |      |
 | [剑指 Offer 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [Fib](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_fib.java) |                                                              | Easy   |      |
+| [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [NumWays](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_2_numWays.java) |                                                              | Easy   |      |
 
 #### 经典题解
 
