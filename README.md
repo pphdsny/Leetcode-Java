@@ -10,15 +10,21 @@
 - 网址：https://leetcode-cn.com/
 ## 待解题目列表
 
-剑指offer系列-持续多月，每周7题
+剑指offer系列-持续多周，每周7题
 
-- [x] [数组中重复的数字](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_03_findRepeatNumber.java)
-- [x] [二维数组中的查找](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_04_findNumberIn2DArray.java)
-- [x] [替换空格](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_05_replaceSpace.java)
-- [x] [从尾到头打印链表](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_06_reversePrint.java)
-- [x] [重建二叉树](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_07_buildTree.java)
-- [x] [用两个栈实现队列](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_09_CQueue.java)
-- [x] [斐波那契数列](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_fib.java)
+- [ ]  [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+
+- [ ]  [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+
+- [ ]  [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)
+
+- [ ]  [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
+
+- [ ]  [剑指 Offer 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
+
+- [ ]  [剑指 Offer 14- II. ](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)
+
+- [ ]  [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
 
 ## 已解题目
 
