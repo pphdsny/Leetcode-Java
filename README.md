@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成268道
+- leetcode练习，坚持每天一道，目前已完成269道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -18,7 +18,7 @@
 
 - [x]  [剑指 Offer 12. 矩阵中的路径](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_12_exist.java)
 
-- [ ]  [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
+- [x]  [剑指 Offer 13. 机器人的运动范围](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_13_movingCount.java)
 
 - [ ]  [剑指 Offer 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
 
@@ -59,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成268）
+### 题目列表（更新中—已完成269）
 
-[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_12_exist.java)
+[Leetcode-Java(260+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_13_movingCount.java)
 
 #### 剑指offer系列
 
@@ -77,6 +77,7 @@
 | [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [NumWays](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_2_numWays.java) |                                                              | Easy   |      |
 | [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | [MinArray](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_11_minArray.java) | [二分查找](<https://leetcode-cn.com/tag/binary-search/>)     | Easy   |      |
 | [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [Exist](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_12_exist.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)       | Medium |      |
+| [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | [MovingCount](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_13_movingCount.java) |                                                              |        |      |
 
 #### 经典题解
 
