@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成270道
+- leetcode练习，坚持每天一道，目前已完成271道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -22,9 +22,7 @@
 
 - [x]  [剑指 Offer 14- I. 剪绳子](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_14_1_cuttingRope.java)
 
-- [ ]  [剑指 Offer 14- II. ](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)
-
-- [ ]  [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
+- [x]  [剑指 Offer 15. 二进制中1的个数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java)
 
 ## 已解题目
 
@@ -59,9 +57,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成270）
+### 题目列表（更新中—已完成271）
 
-[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_14_1_cuttingRope.java)
+[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java)
 
 #### 剑指offer系列
 
@@ -79,6 +77,7 @@
 | [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [Exist](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_12_exist.java) | [DFS](https://leetcode-cn.com/tag/depth-first-search/)       | Medium |      |
 | [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | [MovingCount](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_13_movingCount.java) |                                                              | Medium |      |
 | [剑指 Offer 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | [CuttingRope](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_14_1_cuttingRope.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |      |
+| [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [HammingWeight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)      | Easy   |      |
 
 #### 经典题解
 
