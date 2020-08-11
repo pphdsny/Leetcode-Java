@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成271道
+- leetcode练习，坚持每天一道，目前已完成272道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,17 +12,19 @@
 
 剑指offer系列-持续多周，每周7题
 
-- [x]  [剑指 Offer 10- II. 青蛙跳台阶问题](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_10_2_numWays.java)
+- [x]   [剑指 Offer 16. 数值的整数次方](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java)
 
-- [x]  [剑指 Offer 11. 旋转数组的最小数字](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_11_minArray.java)
+- [ ]  [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
 
-- [x]  [剑指 Offer 12. 矩阵中的路径](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_12_exist.java)
+- [ ]  [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
-- [x]  [剑指 Offer 13. 机器人的运动范围](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_13_movingCount.java)
+- [ ]  [剑指 Offer 19. 正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)
 
-- [x]  [剑指 Offer 14- I. 剪绳子](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_14_1_cuttingRope.java)
+- [ ]  [剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
 
-- [x]  [剑指 Offer 15. 二进制中1的个数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java)
+- [ ]  [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
+
+- [ ]  [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
 
 ## 已解题目
 
@@ -57,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成271）
+### 题目列表（更新中—已完成272）
 
-[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java)
+[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java)
 
 #### 剑指offer系列
 
@@ -78,6 +80,7 @@
 | [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | [MovingCount](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_13_movingCount.java) |                                                              | Medium |      |
 | [剑指 Offer 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | [CuttingRope](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_14_1_cuttingRope.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |      |
 | [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [HammingWeight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)      | Easy   |      |
+| [剑指 Offer 16. 数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | [MyPow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java) |                                                              | Medium |      |
 
 #### 经典题解
 
