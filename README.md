@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成272道
+- leetcode练习，坚持每天一道，目前已完成273道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -14,7 +14,7 @@
 
 - [x]   [剑指 Offer 16. 数值的整数次方](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java)
 
-- [ ]  [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+- [x]  [剑指 Offer 17. 打印从1到最大的n位数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java)
 
 - [ ]  [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
@@ -59,9 +59,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成272）
+### 题目列表（更新中—已完成273）
 
-[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java)
+[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java)
 
 #### 剑指offer系列
 
@@ -81,6 +81,7 @@
 | [剑指 Offer 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | [CuttingRope](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_14_1_cuttingRope.java) | [数学](<https://leetcode-cn.com/tag/math/>)、[动态规划](<https://leetcode-cn.com/tag/dynamic-programming/>) | Medium |      |
 | [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [HammingWeight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)      | Easy   |      |
 | [剑指 Offer 16. 数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | [MyPow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java) |                                                              | Medium |      |
+| [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | [PrintNumbers](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java) | [数学](<https://leetcode-cn.com/tag/math/>)                  | Easy   |      |
 
 #### 经典题解
 
