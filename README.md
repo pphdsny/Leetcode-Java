@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成273道
+- leetcode练习，坚持每天一道，目前已完成274道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -12,19 +12,17 @@
 
 剑指offer系列-持续多周，每周7题
 
-- [x]   [剑指 Offer 16. 数值的整数次方](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java)
-
-- [x]  [剑指 Offer 17. 打印从1到最大的n位数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java)
-
-- [ ]  [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
-
-- [ ]  [剑指 Offer 19. 正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)
-
-- [ ]  [剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
-
-- [ ]  [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
-
+- [x] [剑指 Offer 16. 数值的整数次方](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java)
+- [x] [剑指 Offer 17. 打印从1到最大的n位数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java)
+- [ ] [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+- [ ] [剑指 Offer 19. 正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)
+- [ ] [剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
+- [ ] [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
 - [ ]  [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+
+LCP
+
+- [x]  [LCP 06. 拿硬币](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_6_minCount.java)
 
 ## 已解题目
 
@@ -59,9 +57,9 @@
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成273）
+### 题目列表（更新中—已完成274）
 
-[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java)
+[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_6_minCount.java)
 
 #### 剑指offer系列
 
@@ -339,11 +337,12 @@
 
 #### LCP
 
-| No   | 题目                                                         | 解决方案                                                     | 难度   |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
-| #1   | [LCP 1. 猜数字](https://leetcode-cn.com/problems/guess-numbers/) | [Game](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java) | Easy   |
-| #2   | [LCP 2. 分式化简](https://leetcode-cn.com/problems/deep-dark-fraction/) | [Fraction](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java) | Easy   |
-| #3   | [LCP 3. 机器人大冒险](https://leetcode-cn.com/problems/programmable-robot/) | [Robot](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_3_robot.java) | Medium |
-| #4   | [LCP 4. 覆盖](https://leetcode-cn.com/problems/broken-board-dominoes/) | [Domino](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_4_domino.java) | Hard   |
-| #5   | [LCP 5. 发 LeetCoin](https://leetcode-cn.com/problems/coin-bonus/) | [Bonus](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_5_bonus_2.java) | Hard   |
+| 题目                                                         | 解决方案                                                     | 难度   | 备注 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---- |
+| [LCP 1. 猜数字](https://leetcode-cn.com/problems/guess-numbers/) | [Game](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java) | Easy   |      |
+| [LCP 2. 分式化简](https://leetcode-cn.com/problems/deep-dark-fraction/) | [Fraction](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_2_fraction.java) | Easy   |      |
+| [LCP 3. 机器人大冒险](https://leetcode-cn.com/problems/programmable-robot/) | [Robot](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_3_robot.java) | Medium |      |
+| [LCP 4. 覆盖](https://leetcode-cn.com/problems/broken-board-dominoes/) | [Domino](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_4_domino.java) | Hard   |      |
+| [LCP 5. 发 LeetCoin](https://leetcode-cn.com/problems/coin-bonus/) | [Bonus](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_5_bonus_2.java) | Hard   |      |
+| [LCP 06. 拿硬币](https://leetcode-cn.com/problems/na-ying-bi/) | [MinCount](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_6_minCount.java) | Easy   |      |
 
