@@ -1,6 +1,6 @@
 # LeetCode-Java
 ## 说明
-- leetcode练习，坚持每天一道，目前已完成274道
+- leetcode练习，坚持每天一道，目前已完成275道
 - 解题语言是Java
 - 每道题都是可编译运行的
 - 每道题有自己的方法和他人优秀解法
@@ -14,7 +14,7 @@
 
 - [x] [剑指 Offer 16. 数值的整数次方](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java)
 - [x] [剑指 Offer 17. 打印从1到最大的n位数](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java)
-- [ ] [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+- [x] [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 - [ ] [剑指 Offer 19. 正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)
 - [ ] [剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
 - [ ] [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
@@ -57,9 +57,9 @@ LCP
 - [线段树](https://leetcode-cn.com/tag/segment-tree/)（9）
 - [二叉搜索树](https://leetcode-cn.com/tag/binary-search-tree/)（15）
 
-### 题目列表（更新中—已完成274）
+### 题目列表（更新中—已完成275）
 
-[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_6_minCount.java)
+[Leetcode-Java(270+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_18_deleteNode.java)
 
 #### 剑指offer系列
 
@@ -80,6 +80,7 @@ LCP
 | [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [HammingWeight](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_15_hammingWeight.java) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/)      | Easy   |      |
 | [剑指 Offer 16. 数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | [MyPow](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_16_myPow.java) |                                                              | Medium |      |
 | [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | [PrintNumbers](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_17_printNumbers.java) | [数学](<https://leetcode-cn.com/tag/math/>)                  | Easy   |      |
+| [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [DeleteNode](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/offer/_18_deleteNode.java) | [链表](https://leetcode-cn.com/tag/linked-list/)             | Easy   |      |
 
 #### 经典题解
 
